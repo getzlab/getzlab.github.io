@@ -15,3 +15,7 @@ Thumbs.db
 
 # mac os
 .DS_Store
+
+# Jekyll
+.jekyll-cache/
+team/.jekyll-cache/
