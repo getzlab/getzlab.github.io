@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Chidimma Nzerem
-category: Graduate Student
+category: Associate
 position: Associate Computational Biologist II
 email: cnzerem@broadinstitute.org
 github: 
