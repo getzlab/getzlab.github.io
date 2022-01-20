@@ -1,0 +1,5 @@
+I"—<h1 id="abstract">Abstract</h1>
+
+<p>Technological advances in high-throughput sequencing necessitate improved computational tools for processing and analyzing large-scale datasets in a systematic automated manner. For that purpose, we have developed PRADA (Pipeline for RNA-Sequencing Data Analysis), a flexible, modular and highly scalable software platform that provides many different types of information available by multifaceted analysis starting from raw paired-end RNA-seq data: gene expression levels, quality metrics, detection of unsupervised and supervised fusion transcripts, detection of intragenic fusion variants, homology scores and fusion frame classification. PRADA uses a dual-mapping strategy that increases sensitivity and refines the analytical endpoints. PRADA has been used extensively and successfully in the glioblastoma and renal clear cell projects of The Cancer Genome Atlas program.</p>
+
+:ET

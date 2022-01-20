@@ -1,0 +1,8 @@
+I"[
+<h1 id="credit">Credit</h1>
+
+<p>Our lab website’s design and implementation is indebted to <a href="http://bedford.io/team/trevor-bedford/">Trevor Bedford</a> at the Fred Hutchinson Cancer Research Center, who created a powerful site generation framework that he has made freely available on <a href="https://github.com/blab/blotter">GitHub</a> and which has been employed as the foundation for many other academic sites.  Our site’s code base began with a fork of the <a href="http://drummondlab.org/team/d-allan-drummond">Allan Drummond</a>’s lab <a href="http://drummondlab.org">website</a>, which was heavily inspired by the Bedford Lab website.   Like both the Bedford and Drummond lab websites, our site is built with <a href="http://jekyllbootstrap.com">Jekyll Bootstrap</a>, a static site generator, and like the Drummond Lab site, is deployed using <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+
+<p>Our site’s source code is freely available on <a href="https://github.com/getzlab/getzlab.github.io">GitHub</a>. All code is placed under the MIT license. You’re welcome to borrow / repurpose code to build your own site, and if you do, we’d appreciate attribution and links back to <a href="http://www.getzlab.org">getzlab.org</a>, <a href="http://drummondlab.org">drummondlab.org</a> and <a href="http://bedford.io">bedford.io</a>.</p>
+
+:ET

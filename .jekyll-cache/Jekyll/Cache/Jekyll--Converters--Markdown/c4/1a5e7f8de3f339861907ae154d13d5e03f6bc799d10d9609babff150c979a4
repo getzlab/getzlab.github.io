@@ -1,0 +1,4 @@
+I"…<h1 id="abstract">Abstract</h1>
+
+<p>Current genomics methods are designed to handle tens to thousands of samples but will need to scale to millions to match the pace of data and hypothesis generation in biomedical science. Here, we show that high efficiency at low cost can be achieved by leveraging general-purpose libraries for computing using graphics processing units (GPUs), such as PyTorch and TensorFlow. We demonstrate &gt; 200-fold decreases in runtime and ~ 5-10-fold reductions in cost relative to CPUs. We anticipate that the accessibility of these libraries will lead to a widespread adoption of GPUs in computational genomics.</p>
+:ET

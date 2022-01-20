@@ -1,0 +1,4 @@
+I"'<h1 id="abstract">Abstract</h1>
+
+<p>A key step in achieving accurate detection of somatic mutations is comparison of sequencing data from a tumor sample to its matched germline control. Sensitivity to detect somatic variants is greatly reduced when the matched normal sample is contaminated with tumor cells. To overcome this limitation, we developed deTiN, a method that first estimates the tumor-in-normal contamination (TiN) level, and then, in contaminated cases, improves sensitivity by reclassifying initially discarded variants as somatic.</p>
+:ET
