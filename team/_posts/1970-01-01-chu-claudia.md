@@ -15,4 +15,4 @@ I joined the Getz Lab early 2021 as an Associate Computational Biologist. I curr
 
 I recieved a B.S. in Computer Science and a Minor in Biology at Georgia Tech. In the future I plan to pursue graduate school to continue my studies in computational applications in biological research. 
 
-Outside of research, I enjoy volleyball, longboarding, and running U+1F3C3. When I can't be outside, I also like baking, knitting, and piano.
+Outside of research, I enjoy volleyball, longboarding, and running U+1F3C3. When I can't be outside, I also like baking (&#127856), knitting, and piano.
