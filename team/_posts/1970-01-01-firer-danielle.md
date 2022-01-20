@@ -6,7 +6,7 @@ position: Associate Computational Biologist
 email: dfirer@broadinstitute.org
 github: 
 cv:
-image: /assests/images/team/dfirer.jpg
+image: /assets/images/team/dfirer.jpg
 alum: false
 ---
 
