@@ -6,7 +6,7 @@ citation_names: Heiman DI, Heiman D
 position: Principal Software Engineer
 email: dheiman@broadinstitute.org
 github: dheiman
-scholar: FKxpoiYAAAAJ
+scholar: GeDeU_IAAAAJ
 image: /assets/images/team/David_Heiman.png
 cv:
 alum: false
