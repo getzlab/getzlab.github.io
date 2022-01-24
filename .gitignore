@@ -1,9 +1,3 @@
-_site/*
-_theme_packages/*
-
-Gemfile.lock
-Thumbs.db
-.DS_Store
 
 !.gitkeep
 
@@ -13,9 +7,18 @@ Thumbs.db
 # emacs
 *~
 
+# windows
+thumbs.db
+
 # mac os
 .DS_Store
 
-# Jekyll
-.jekyll-cache/
-team/.jekyll-cache/
+# jekyll
+Gemfile.lock
+_site/*
+_theme_packages/*
+.jekyll-cache/*
+
+# eclipse
+.project
+.settings/*
