@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Mendy Miller
-citation_names: M Miller, ML Miller
+citation_names: Miller M, Miller ML
 category: Staff Scientist
 position: Senior Science Writer
 email: mendy@broadinstitute.org
