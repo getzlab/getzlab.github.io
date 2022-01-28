@@ -8,7 +8,7 @@ email: mholton@broadinstitute.org
 #[twitter: <twitter handle>]
 #[github: <github userid>]
 #[linkedin: <linkedin id>]
-#[image: /assets/images/team/<image png filename>]
+image: /assets/images/team/Mark_Holton.png
 #[cv: /assets/pdfs/<cv pdf filename>]
 #[scholar: <google scholar id>]
 alum: false 
