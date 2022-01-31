@@ -26,7 +26,7 @@ If you're a member of the [all_getzlab team](https://github.com/orgs/getzlab/tea
 
 Clone the repository, making a local copy on your machine:
 
-	git clone https://github.com/getzlab/getzlab.github.io.git
+	git clone https://github.com/getzlab/getzlab.github.io
 
 
 ## Overview of the structure
@@ -43,7 +43,7 @@ You will create a personal branch, make your changes on that branch, preview you
 
 	...
 
-	git push origin <your name>-staging
+	git push -u origin <your name>-staging
 
 After pushing your personal staging branch to github, create a pull request for merging your changes into master and request a review.  The reviewer (cbirger for now) will be responsible for conducting the merge to master, and thus publishing the content to the public website.
 
