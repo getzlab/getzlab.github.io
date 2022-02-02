@@ -147,6 +147,7 @@ Don't forget to make your changes on a personal staging branch so they can be re
 Fonts, colors, spacing, and similar stylings are separate from the template pages. Like most sites, we use Cascading Style Sheets (CSS).  Much of this is borrowed from the [Alan Drummond's site](http://drummondlab.org) but may be updated over time (based on input from the web designers in the Broad's [Patterns team](https://pattern.broadinstitute.org/).
 
 # Content Classes
+
 ## papers
 
 The Getz Lab website displays lists of publications on three pages.  Recently published papers (six most recently published) appear on the front page under the heading "Recent Papers".  All papers added to the website will appear on the Selected Papers page, navigated to by selecting Papers in the top nav bar. Team member pages include a list of lab papers where the team member is a co-author.  In all listings, the names of authors that are current or past lab members are in a **bold** font.  In all listings, a paper's title is an internal like to a web page devoted to that paper.  The paper's web page lists all of the paper's authors; journal name, volume, issue and page; abstract; public link to journal article fulltext and/or pdf (when available); the PubMed ID (linked to PubMed entry); and the DOI, which is linked back to the paper's permanent web address. 
