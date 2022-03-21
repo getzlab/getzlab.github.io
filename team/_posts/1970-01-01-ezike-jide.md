@@ -10,5 +10,5 @@ image: /assets/images/team/jezike_id_image_editted.png
 alum: false
 ---
 
-Jide is a PhD candidate at MIT's Computational & Systems Biology (CSB) program, coadvised by Aviv Regev. Jide works at the intersection of single cell genomics and cancer. He studies the interplay between somatic mutations and transcription in the context of tumor evolution. 
+Jide is a PhD candidate at MIT's Computational & Systems Biology (CSB) program, coadvised by Gad Getz & Aviv Regev. Jide works at the intersection of single cell genomics and cancer. He studies the interplay between somatic mutations and transcription in the context of tumor evolution. 
 
