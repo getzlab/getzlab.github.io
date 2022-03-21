@@ -12,44 +12,65 @@ Here's a step-by-step guide for making modifications to the site. We will first 
 
 ## Software Requirements
 
-You'll need a working Unix-like environment and working knowledge of Git, [Markdown](https://daringfireball.net/projects/markdown/syntax), HTML, and Unix commands. To locally preview your content updates, you will need to run a local instance of Jekyll to generate the static files and serve them locally.  Locally previewing files is most easily done by running Jekyll within a Docker container and serving the website locally from that container. **This is how we recommend lab members locally test their contributions to the website.**  [Previewing your local edits](#previewing-your-local-edits) contains instructions on running Jekyll within a Docker container.
+You'll need a working Unix-like environment with Git installed, and working knowledge of [Git](https://git-scm.com/), [Markdown](https://daringfireball.net/projects/markdown/syntax), HTML, and Unix commands. 
 
-Alternatively, you may install Ruby, with gems for Jekyll, GitHub Pages, and their dependencies, directly on your development system. The installation of these tools can be a little confusing, depending on your hardware (intel vs. M1 chip) the OS environment (Catalina vs. Big Sur) and the shell you are using (bash vs. zsh)  I recently needed to upgrade to Big Sur (required by BITS) and the upgrade broke my ruby/jekyll dev environment.  I did get it reassembled and working again, but it took a couple of hours.  See the following instruction: 
+Git comes pre-installed on most recent versions of MacOS.  See [git-scm-installation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for instructions on how to determine whether you have git already installed, how to install it if you don't, and how to upgrade to the latest version.  If you wish to use the GitHub desktop application rather than the CLI, see [GitHub Desktop](https://desktop.github.com/) for installation instructions.
+
+To locally preview your content updates, you will need to run a local instance of Jekyll to generate the static files and serve them locally.  Locally previewing files is most easily done by running Jekyll within a Docker container and serving the website locally from that container, which will require the installation of [Docker](https://www.docker.com/). **Running Jekyll within a docker container is how we recommend lab members locally test their contributions to the website.**  [Previewing your local edits](#previewing-your-local-edits) contains instructions for installing docker on your development system and serving your version of the website locally from a running jekyll container.
+
+Alternatively, you may install Ruby, with gems for Jekyll, GitHub Pages, and their dependencies, directly on your development system. (If you choose to go this route, you will not need to install Docker.)  The installation of these tools can be a little confusing, depending on your hardware (intel vs. M1 chip) the OS environment (Catalina vs. Big Sur) and the shell you are using (bash vs. zsh)  I recently needed to upgrade to Big Sur (required by BITS) and the upgrade broke my ruby/jekyll dev environment.  I did get it reassembled and working again, but it took a couple of hours.  See the following instruction: 
 
 
 [Jekyll Installation on Mac](https://jekyllrb.com/docs/installation/macos/)
 
 
-## Clone the repository
+## Cloning the Getz Lab website's GitHub Repository
 
-If you're a member of the [all_getzlab team](https://github.com/orgs/getzlab/teams/all_getzlab), you have write access to the website repository.
+The website's source code and documentation (i.e., this README file) are located in the GitHub repository [https://github.com/getzlab/getzlab.github.io](https://github.com/getzlab/getzlab.github.io).  This is a public repo, so anyone should be able to clone the repo.  However, in order to publish your changes back to the GitHub repo and issue pull requests, you will need write access to the repository.  Members of the [all_getzlab team](https://github.com/orgs/getzlab/teams/all_getzlab) within the getzlab GitHub organization have write access to the repo.
 
-Clone the repository, making a local copy on your machine:
+When accessing GitHub via the git command line interface (CLI) to publish your local changes to the repo, you will need to authenticate yourself to GitHub.  How you authenticate to GitHub when using the CLI depends on the protocol you use to communicate with GitHub.  The options are https or SSH.  You specify the protocol when you clone the repo.  If you clone the repo by issuing the following git command:
 
-	git clone https://github.com/getzlab/getzlab.github.io.git
+    git clone https://github.com/getzlab/getzlab.github.io
+    
+you will be using the https protocol for which the required authentication protocol is Personal Access Token (PAT).  Read [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) for instructions on how to create and use PAT.
 
+If you clone the repo by issuing the following git command:
+
+    git clone git@github.com:getzlab/getzlab.github.io.git
+
+you will be using the SSH protocol to connect to github.  Before issuing this clone command you will need to ensure you have an SSH key installed on your laptop, added to the ssh-agent and added to your GitHub account.  Instructions for doing this are [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
+
+If you specified the https protocol when you cloned the repo but want to switch to SSH, issue the following git command:
+
+    git remote set-url origin git@github.com:getzlab/getzlab.github.io
+
+You must have an SSH key added to your GitHub account before issuing the above command.
 
 ## Overview of the structure
 
-A site is a collection of HTML pages. For our site (and many others), there are pages of the same type, like paper (publication) pages or a lab member pages, which have the same layout, differ in content. In the web-accessible site, these are indeed different pages. However, they are _generated_ from a single template file filled in with information from many paper- or member-specific markdown data files. This generation is done every time the site changes; it's handled by GitHub Pages, the service we use.
+A site is a collection of HTML pages. For our site (and many others), there are pages of the same type, like paper (publication) pages or a lab member pages, which have the same layout but differ in content. In the web-accessible site, these are indeed different pages. However, they are _generated_ from a single template file filled in with information from many paper- or member-specific markdown data files. This generation is done every time the site changes; it's handled by GitHub Pages, the service we use.
 
 The template files are weird-looking HTML files (containing jekyll site variables and control logic) residing in the `_includes/themes/lab` folder.  You should not alter the contents of this folder.
 
 ## How to add content
 
-You will create a personal branch, make your changes on that branch, preview your changes on a locally-served instance of the website and, when satisfied with the appearance of your changes, push your local branch to the github repo:
+You will create a personal branch off of master, make your changes on that branch, preview your changes on a locally-served instance of the website and, when satisfied with the appearance of your changes, push your local branch to the github repo:
 
 	git checkout -b <your name>-staging
 
 	...
 
-	git push origin <your name>-staging
+	git push -u origin <your name>-staging
 
-After pushing your personal staging branch to github, create a pull request for merging your changes into master and request a review.  The reviewer (cbirger for now) will be responsible for conducting the merge to master, and thus publishing the content to the public website.
+When you create your branch with the checkout command, make sure you have the master branch checked out.  This will ensure your branch is created off of master.  After pushing your personal staging branch to github, create a pull request for merging your changes into the **master** branch and request a review.  The reviewer (cbirger for now) will be responsible for merging your updates to master, which publishes the updated content to the public website.  I discuss this process of creating a pull request in greater detail in [Updating the public site](#updating-the-public-site).
 
 ### Previewing your local edits
 
-You should preview your local edits by having a locally running Jekyll installation generate the static pages and serve them for review.  You may run Jekyll directly on your development system (requiring the local installation of Ruby and the Jekyll and GitHub Pages Gems) or, more simply, run Jekyll within a Docker Container.  To run Jekyll from within a Docker container simply issue the following command:
+You should preview your local edits by having a locally running Jekyll installation generate the static pages and serve them for review.  You may run Jekyll directly on your development system (requiring the local installation of Ruby and the Jekyll and GitHub Pages Gems) or, more simply, run Jekyll within a Docker Container.  
+
+Before running Jekyll from within a Docker container, you will need to install docker on your system and run the docker daemon (background service).  Installation of docker is most easily done by installing the [Docker Desktop](https://www.docker.com/get-started).  After installing Docker Desktop and launching the app, he docker daemon should be running.
+
+To run Jekyll from within a Docker container simply issue the following command:
 
 	$ docker run --rm --volume="$PWD:/srv/jekyll" -p 4000:4000 jekyll/jekyll:4.0 jekyll serve
 	
@@ -108,24 +129,25 @@ The same basic process is used to add other content classes; i.e., portals, posi
 
 ### Updating the public site
 
-All edits should be made to your private `staging` branch. When you start work, make sure you're on the staging branch:
+All edits should be made to your personal `user-staging` branch. When you start work, make sure you're on your personal staging branch:
 
 	git checkout <your name>-staging
 
 
 Instead of merging your changes directly to the `master` branch, you will create a pull request.
 
-After pushing your branch to the repo, go to github and create a pull request, naming cbirger as the reviewer.  (Eventually reviewer responsibilities will be shared across multiple lab members.)  When you create the pull request, please make sure you set the base repository to getzlab/getzlab.github.io and the base reference branch to master.  Once a pull request is approved, it will be merged to master, and thus pushed to the public website.
+After pushing your branch to the repo, go to github and create a pull request, naming cbirger as the reviewer.  (Eventually reviewer responsibilities will be shared across multiple lab members.)  **When you create the pull request, please make sure you set the base repository to getzlab/getzlab.github.io and the base reference branch to master.**  Once a pull request is approved, it will be merged to master.  It is the merge to master that results in the publication of the new contento to the lab's public website.
 
-When the pull request is completed, check to make sure the public site [www.getzlab.org](http://www.getzlab.org) looks the way you intended.
+A couple of minutes after your pull request is approved and completed, check to make sure your updates to the public site [www.getzlab.org](http://www.getzlab.org) appear the way you intended.
 
-Don't forget to make your changes on a personal staging branch so they can be reviewed before merging onto master!
+Don't forget to make your changes on a personal staging branch so they can be reviewed before merging into master!
 
 ## Changing look and feel
 
 Fonts, colors, spacing, and similar stylings are separate from the template pages. Like most sites, we use Cascading Style Sheets (CSS).  Much of this is borrowed from the [Alan Drummond's site](http://drummondlab.org) but may be updated over time (based on input from the web designers in the Broad's [Patterns team](https://pattern.broadinstitute.org/).
 
 # Content Classes
+
 ## papers
 
 The Getz Lab website displays lists of publications on three pages.  Recently published papers (six most recently published) appear on the front page under the heading "Recent Papers".  All papers added to the website will appear on the Selected Papers page, navigated to by selecting Papers in the top nav bar. Team member pages include a list of lab papers where the team member is a co-author.  In all listings, the names of authors that are current or past lab members are in a **bold** font.  In all listings, a paper's title is an internal like to a web page devoted to that paper.  The paper's web page lists all of the paper's authors; journal name, volume, issue and page; abstract; public link to journal article fulltext and/or pdf (when available); the PubMed ID (linked to PubMed entry); and the DOI, which is linked back to the paper's permanent web address. 
