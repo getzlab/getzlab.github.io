@@ -7,9 +7,9 @@
 	<div class="col-md-3">
 		<div class="media">
 			{% if member.image %}
-			<img class="pull-left pad-right big-member-photo" src="{{ member.image }}">
+			<img width=250 class="pull-left" src="{{ member.image }}">
 			{% else %}
-			<img width=400 class="pull-left pad-right big-member-photo" src="/assets/images/team/default-member.jpeg">
+			<img width=250 class="pull-left" src="/assets/images/team/default-member.jpeg">
 			{% endif %}
 		</div>
 	</div>
@@ -21,7 +21,7 @@
                         <div>
                         {% if member.alum == true %}
                         <div class="smallhead">
-                            Lab Alumus/Alumna
+                            Lab Alumnus/Alumna
 			</div>
 			<div class="smallhead">
 			Lab Position: {{ member.position }}
@@ -87,6 +87,7 @@
 		{% endif %}				   	
                 
 		{% if member.alum == false %}
+                {% unless member.mask_email == true %}
 		{% if member.email %}
 		{% assign emailarray = member.email | split: '@' %}
 		<div class="smallhead">
@@ -99,6 +100,7 @@
 		</div>		
 		<div class="bigspacer"></div>			
 		{% endif %}
+		{% endunless %}
 		{% endif %}
 		
 		{% if member.linkedin %}
@@ -107,7 +109,7 @@
 		</div>	
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
-			<i class="fa fa-linkedin-alt fa-fw"></i>
+			<i class="fa fa-linkedin fa-fw"></i>
 			<a class="off" href="https://linkedin.com/in/{{ member.linkedin }}">{{ member.linkedin }}</a>
 		</div>		
 		<div class="bigspacer"></div>			
