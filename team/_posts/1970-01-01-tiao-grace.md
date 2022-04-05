@@ -8,6 +8,7 @@ github:
 image:
 cv:
 alum: true
-current_position: Associate Diector, Computaional Genomics, Translational Genomics Group, Broad Institute
+linkedin: grace-tiao
+parting_date: 2017-07-31
 ---
 

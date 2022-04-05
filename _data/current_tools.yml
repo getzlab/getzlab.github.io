@@ -1,0 +1,431 @@
+---
+- repo: getzlab/ABSOLUTE
+  title: ABSOLUTE
+  owner: getzlab
+  description: ABSOLUTE source code that works with allelic copy ratio on both hg19
+    and hg38
+  url: "/tools/ABSOLUTE/"
+  topics: []
+  contributors:
+  - login: hurrialice
+    avatar: https://avatars.githubusercontent.com/u/30106174?v=4&s=50
+    url: https://github.com/hurrialice
+  commits:
+  - date: 2021-10-08 22:39:33.000000000 Z
+    message: add pattern
+    url: https://github.com/getzlab/ABSOLUTE/commit/1e3898b91745868e402ca5d601345066dd6df440
+    author_login: hurrialice
+    author_url: https://github.com/hurrialice
+  - date: 2021-10-08 21:35:52.000000000 Z
+    message: add extraction code
+    url: https://github.com/getzlab/ABSOLUTE/commit/00259a02f8310248bdc149743a8bdf12c2f519ba
+    author_login: hurrialice
+    author_url: https://github.com/hurrialice
+  - date: 2021-08-23 13:57:39.000000000 Z
+    message: genome-build agnostic ABSOLUTE
+    url: https://github.com/getzlab/ABSOLUTE/commit/d8d55b67c97fcbf5522f6ec96d42e8f0149ee599
+    author_login: hurrialice
+    author_url: https://github.com/hurrialice
+  - date: 2021-04-24 21:24:30.000000000 Z
+    message: py2->py3 fix; R is.na() fix
+    url: https://github.com/getzlab/ABSOLUTE/commit/535d7e68d86c44c7ea89e6fd71a1ee0527cff181
+    author_login: hurrialice
+    author_url: https://github.com/hurrialice
+  - date: 2021-04-24 19:46:21.000000000 Z
+    message: fix protein change; add new wolf task structure
+    url: https://github.com/getzlab/ABSOLUTE/commit/7ea9636d23af25e6e4a71b82899e76022a191a17
+    author_login: hurrialice
+    author_url: https://github.com/hurrialice
+- repo: getzlab/CLUMPS2
+  title: CLUMPS 2
+  owner: getzlab
+  description: Re-factored code for CLUMPS.
+  url: "/tools/CLUMPS 2/"
+  topics: []
+  contributors:
+  - login: shankara-a
+    avatar: https://avatars.githubusercontent.com/u/16708493?v=4&s=50
+    url: https://github.com/shankara-a
+  - login: ajdunford
+    avatar: https://avatars.githubusercontent.com/u/4085800?v=4&s=50
+    url: https://github.com/ajdunford
+  commits:
+  - date: 2022-02-21 15:19:24.000000000 Z
+    message: Update README.md
+    url: https://github.com/getzlab/CLUMPS2/commit/4faabbfaa8b664f98b1f98ed72c18731796de3e0
+    author_login: shankara-a
+    author_url: https://github.com/shankara-a
+  - date: 2020-03-04 19:22:36.000000000 Z
+    message: added phospho sampler
+    url: https://github.com/getzlab/CLUMPS2/commit/bab39a368f5019ed4cfb345cc39a70021ad3c881
+    author_login: ''
+    author_url: ''
+  - date: 2019-08-14 22:45:50.000000000 Z
+    message: added gitignore
+    url: https://github.com/getzlab/CLUMPS2/commit/bdd3cae82045402c8b8e61d3d5dd361293d56a65
+    author_login: ''
+    author_url: ''
+  - date: 2019-08-14 21:34:14.000000000 Z
+    message: fixes to inputs for canine
+    url: https://github.com/getzlab/CLUMPS2/commit/6510010679a69a6e7dacea66cffcf708d077ecc0
+    author_login: ''
+    author_url: ''
+  - date: 2019-08-14 21:25:09.000000000 Z
+    message: formatting
+    url: https://github.com/getzlab/CLUMPS2/commit/8f954bf5c06d6719a74352bed769bf6ea5a32aae
+    author_login: ajdunford
+    author_url: https://github.com/ajdunford
+- repo: broadinstitute/gistic2
+  title: GISTIC 2
+  owner: broadinstitute
+  description: Genomic Identification of Significant Targets in Cancer (GISTIC), version
+    2
+  url: "/tools/GISTIC 2/"
+  topics: []
+  contributors:
+  - login: stevenschumacher
+    avatar: https://avatars.githubusercontent.com/u/8998160?v=4&s=50
+    url: https://github.com/stevenschumacher
+  commits:
+  - date: 2022-03-15 18:47:13.000000000 Z
+    message: added more links to index.html
+    url: https://github.com/broadinstitute/gistic2/commit/666de91d6ae7e048cced39d2a426c938b3d5627b
+    author_login: stevenschumacher
+    author_url: https://github.com/stevenschumacher
+  - date: 2022-03-15 15:53:36.000000000 Z
+    message: Update index.html
+    url: https://github.com/broadinstitute/gistic2/commit/de0d227b395bf33c4f55910d6c4ea2f46635d3c3
+    author_login: stevenschumacher
+    author_url: https://github.com/stevenschumacher
+  - date: 2022-03-15 15:45:27.000000000 Z
+    message: Update index.html
+    url: https://github.com/broadinstitute/gistic2/commit/b944e51207315bfc796459d7097c868a781a906a
+    author_login: stevenschumacher
+    author_url: https://github.com/stevenschumacher
+  - date: 2022-03-15 13:36:45.000000000 Z
+    message: add examplefiles directory to docs
+    url: https://github.com/broadinstitute/gistic2/commit/5d7f4d9cb3865cd8fb9d70d51ca51a9dca340bd4
+    author_login: stevenschumacher
+    author_url: https://github.com/stevenschumacher
+  - date: 2022-03-14 18:53:16.000000000 Z
+    message: rename user_docs to docs to satisfy GitHub pages
+    url: https://github.com/broadinstitute/gistic2/commit/4a8ac66605542fe6143e8649ffc008f442a0ca25
+    author_login: stevenschumacher
+    author_url: https://github.com/stevenschumacher
+- repo: getzlab/MSMuTect2
+  title: MSMuTect 2
+  owner: getzlab
+  description: Accurate detection of somatic MS (microsatellite) indels.
+  url: "/tools/MSMuTect 2/"
+  topics: []
+  contributors:
+  - login: hurrialice
+    avatar: https://avatars.githubusercontent.com/u/30106174?v=4&s=50
+    url: https://github.com/hurrialice
+  - login: cbirger
+    avatar: https://avatars.githubusercontent.com/u/2326853?v=4&s=50
+    url: https://github.com/cbirger
+  - login: AvrahamKahan123
+    avatar: https://avatars.githubusercontent.com/u/68906522?v=4&s=50
+    url: https://github.com/AvrahamKahan123
+  commits:
+  - date: 2022-03-30 15:09:37.000000000 Z
+    message: |-
+      Merge pull request #1 from getzlab/add-license-1
+
+      Create LICENSE
+    url: https://github.com/getzlab/MSMuTect2/commit/f4dc13948e70291eb46401a7ed2305ea7d7db252
+    author_login: cbirger
+    author_url: https://github.com/cbirger
+  - date: 2022-03-30 15:09:13.000000000 Z
+    message: Create LICENSE
+    url: https://github.com/getzlab/MSMuTect2/commit/1b1b5681c35a447daa25f54e66da6ad89399b07d
+    author_login: cbirger
+    author_url: https://github.com/cbirger
+  - date: 2021-09-07 05:25:46.000000000 Z
+    message: temporal working script
+    url: https://github.com/getzlab/MSMuTect2/commit/72120a6c1e6980efd0a18f641e8b011bb2603a0e
+    author_login: hurrialice
+    author_url: https://github.com/hurrialice
+  - date: 2021-09-04 13:03:10.000000000 Z
+    message: fix typo in ref path
+    url: https://github.com/getzlab/MSMuTect2/commit/6c2e099f34652e994f0f6d33418e5c5a43e038a0
+    author_login: hurrialice
+    author_url: https://github.com/hurrialice
+  - date: 2021-08-27 19:54:49.000000000 Z
+    message: returns task obj
+    url: https://github.com/getzlab/MSMuTect2/commit/a08ea7ba5aa8d021b5539f76e37da062b1b34b12
+    author_login: hurrialice
+    author_url: https://github.com/hurrialice
+- repo: getzlab/MSMutSig
+  title: MSMutSig
+  owner: getzlab
+  description: Detects loci with a significantly higher-than-expected frequency of
+    somatic MS (microsatellite) indels.
+  url: "/tools/MSMutSig/"
+  topics: []
+  contributors:
+  - login: dheiman
+    avatar: https://avatars.githubusercontent.com/u/1229253?v=4&s=50
+    url: https://github.com/dheiman
+  - login: cbirger
+    avatar: https://avatars.githubusercontent.com/u/2326853?v=4&s=50
+    url: https://github.com/cbirger
+  commits:
+  - date: 2022-03-28 22:42:19.000000000 Z
+    message: Create LICENSE.md
+    url: https://github.com/getzlab/MSMutSig/commit/f90fab6692952df8f5ce7c8df265aa26bed62146
+    author_login: dheiman
+    author_url: https://github.com/dheiman
+  - date: 2022-03-28 17:29:24.000000000 Z
+    message: Added code from https://www.nature.com/articles/nbt.3966#MOESM16
+    url: https://github.com/getzlab/MSMutSig/commit/95056cde69196ea2e0daef0a227908d6c6c94659
+    author_login: dheiman
+    author_url: https://github.com/dheiman
+  - date: 2021-02-24 13:19:23.000000000 Z
+    message: Initial commit
+    url: https://github.com/getzlab/MSMutSig/commit/823c1f184c7c8946fe5af0a6a837b79674000bee
+    author_login: cbirger
+    author_url: https://github.com/cbirger
+- repo: getzlab/mutect
+  title: MuTect 1
+  owner: getzlab
+  description: MuTect -- Accurate and sensitive cancer mutation detection
+  url: "/tools/MuTect 1/"
+  topics: []
+  contributors:
+  - login: kcibul
+    avatar: https://avatars.githubusercontent.com/u/1423491?v=4&s=50
+    url: https://github.com/kcibul
+  - login: lbergelson
+    avatar: https://avatars.githubusercontent.com/u/4700332?v=4&s=50
+    url: https://github.com/lbergelson
+  - login: julianhess
+    avatar: https://avatars.githubusercontent.com/u/328077?v=4&s=50
+    url: https://github.com/julianhess
+  - login: asivache
+    avatar: https://avatars.githubusercontent.com/u/3407913?v=4&s=50
+    url: https://github.com/asivache
+  commits:
+  - date: 2021-09-13 14:11:57.000000000 Z
+    message: Make chimeric read filter optional
+    url: https://github.com/getzlab/mutect/commit/f22f927f6181dbf39aafd7c643b5ff6346575eb2
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2021-08-03 17:12:30.000000000 Z
+    message: Initial commit of omitting discordant readpairs
+    url: https://github.com/getzlab/mutect/commit/df19552c1a440212b5922653297e5c410721b4be
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2021-08-03 15:23:11.000000000 Z
+    message: Fix typos
+    url: https://github.com/getzlab/mutect/commit/263380747a83297c05ce6764dd322ec1cc608451
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2021-08-03 15:22:54.000000000 Z
+    message: Put expensive read tests later to fail faster
+    url: https://github.com/getzlab/mutect/commit/8bc541420c0437c274f1b1feed56fc9244b2709c
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2014-06-01 20:34:34.000000000 Z
+    message: fixed unit test to not rely on broad filesystem
+    url: https://github.com/getzlab/mutect/commit/69b7a37fcafe8a68f7470436f24e44df740f1c41
+    author_login: kcibul
+    author_url: https://github.com/kcibul
+- repo: getzlab/MutSig2CV
+  title: MutSig2CV
+  owner: getzlab
+  description: MutSig2CV from Lawrence et al. 2014
+  url: "/tools/MutSig2CV/"
+  topics: []
+  contributors:
+  - login: julianhess
+    avatar: https://avatars.githubusercontent.com/u/328077?v=4&s=50
+    url: https://github.com/julianhess
+  commits:
+  - date: 2020-08-18 22:12:41.000000000 Z
+    message: Update README.md
+    url: https://github.com/getzlab/MutSig2CV/commit/0109e27e70478181695f31ca8dd281bb44f0b3af
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2020-08-18 22:11:48.000000000 Z
+    message: Update annotations in README
+    url: https://github.com/getzlab/MutSig2CV/commit/a33b256d1a07593e1dd53bb44607047e00b070df
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2020-08-18 22:04:08.000000000 Z
+    message: Update README.md
+    url: https://github.com/getzlab/MutSig2CV/commit/75be96581fed8468b3af3bbad61f292c1c3f8d27
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2020-08-18 22:02:20.000000000 Z
+    message: Update readme
+    url: https://github.com/getzlab/MutSig2CV/commit/3a4e9bc45757be7ad883de6f1372fd97f088abdd
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+  - date: 2020-08-18 22:01:13.000000000 Z
+    message: Rename MutSig wrapper
+    url: https://github.com/getzlab/MutSig2CV/commit/3b36a17b52b92416ccf87e35f3ebb2d06952cf78
+    author_login: julianhess
+    author_url: https://github.com/julianhess
+- repo: getzlab/rnaseqc
+  title: RNA-SeQC 2
+  owner: getzlab
+  description: Fast, efficient RNA-Seq metrics for quality control and process optimization
+  url: "/tools/RNA-SeQC 2/"
+  topics:
+  - rnaseq
+  - rna-seq
+  - bioinformatics
+  contributors:
+  - login: agraubert
+    avatar: https://avatars.githubusercontent.com/u/997749?v=4&s=50
+    url: https://github.com/agraubert
+  - login: francois-a
+    avatar: https://avatars.githubusercontent.com/u/9382463?v=4&s=50
+    url: https://github.com/francois-a
+  - login: joshua-gould
+    avatar: https://avatars.githubusercontent.com/u/5237151?v=4&s=50
+    url: https://github.com/joshua-gould
+  commits:
+  - date: 2022-02-18 17:44:16.000000000 Z
+    message: Update README.md
+    url: https://github.com/getzlab/rnaseqc/commit/cff231b55ec4c5292213c9ab5d30b1f183956726
+    author_login: francois-a
+    author_url: https://github.com/francois-a
+  - date: 2021-12-16 20:56:41.000000000 Z
+    message: Added options, fix for CDF plot
+    url: https://github.com/getzlab/rnaseqc/commit/286f99dfd4164d33014241dd4f3149da0cddf5bf
+    author_login: francois-a
+    author_url: https://github.com/francois-a
+  - date: 2021-09-16 19:01:18.000000000 Z
+    message: Increase cloudbuild timeout
+    url: https://github.com/getzlab/rnaseqc/commit/5de80ec503ebb5cfcfc185291c32c839da191f74
+    author_login: agraubert
+    author_url: https://github.com/agraubert
+  - date: 2021-09-16 18:37:25.000000000 Z
+    message: Fixed cloudbuild
+    url: https://github.com/getzlab/rnaseqc/commit/e9ae46a20ce1346bb0a7ad78f22eb84c69f7de23
+    author_login: agraubert
+    author_url: https://github.com/agraubert
+  - date: 2021-09-16 15:42:46.000000000 Z
+    message: |-
+      Merge pull request #63 from getzlab/drop-lfs
+
+      Move testing data out of LFS
+    url: https://github.com/getzlab/rnaseqc/commit/d69f56edeeff8ce2399dc30e9b991bd7f33130f3
+    author_login: agraubert
+    author_url: https://github.com/agraubert
+- repo: getzlab/SignatureAnalyzer
+  title: SignatureAnalyzer
+  owner: getzlab
+  description: 'Updated SignatureAnalyzer-GPU with mutational spectra & RNA expression
+    compatibility. '
+  url: "/tools/SignatureAnalyzer/"
+  topics: []
+  contributors:
+  - login: yoakiyama
+    avatar: https://avatars.githubusercontent.com/u/38875190?v=4&s=50
+    url: https://github.com/yoakiyama
+  - login: shankara-a
+    avatar: https://avatars.githubusercontent.com/u/16708493?v=4&s=50
+    url: https://github.com/shankara-a
+  - login: jcha40
+    avatar: https://avatars.githubusercontent.com/u/43419629?v=4&s=50
+    url: https://github.com/jcha40
+  - login: francois-a
+    avatar: https://avatars.githubusercontent.com/u/9382463?v=4&s=50
+    url: https://github.com/francois-a
+  - login: cchu70
+    avatar: https://avatars.githubusercontent.com/u/34669546?v=4&s=50
+    url: https://github.com/cchu70
+  - login: julianhess
+    avatar: https://avatars.githubusercontent.com/u/328077?v=4&s=50
+    url: https://github.com/julianhess
+  commits:
+  - date: 2022-03-23 19:57:31.000000000 Z
+    message: |-
+      Merge pull request #42 from cchu70/master
+
+      semi-supervised notebook example
+    url: https://github.com/getzlab/SignatureAnalyzer/commit/6e7db02101f880dca47ea6d017cbfd9ca117c2aa
+    author_login: yoakiyama
+    author_url: https://github.com/yoakiyama
+  - date: 2022-03-23 19:55:44.000000000 Z
+    message: semi-supervised notebook example
+    url: https://github.com/getzlab/SignatureAnalyzer/commit/e83d4673b181b982775b74046ae7ad3f10301def
+    author_login: cchu70
+    author_url: https://github.com/cchu70
+  - date: 2022-03-23 17:51:15.000000000 Z
+    message: Update Supervised_HowTo.ipynb
+    url: https://github.com/getzlab/SignatureAnalyzer/commit/223f7487128eb086e8152e0b405a876bf3f900d2
+    author_login: yoakiyama
+    author_url: https://github.com/yoakiyama
+  - date: 2022-01-08 20:18:26.000000000 Z
+    message: Added gprofiler to requirements
+    url: https://github.com/getzlab/SignatureAnalyzer/commit/1a39d2d2e95a9e8f60d24a168bd85917da0ee0c5
+    author_login: francois-a
+    author_url: https://github.com/francois-a
+  - date: 2021-09-26 20:05:58.000000000 Z
+    message: Update README.md
+    url: https://github.com/getzlab/SignatureAnalyzer/commit/94c8a98209c400095862b538b843d82ea47dd8b9
+    author_login: shankara-a
+    author_url: https://github.com/shankara-a
+- repo: getzlab/deTiN
+  title: deTiN
+  owner: getzlab
+  description: DeTiN is designed to measure tumor-in-normal contamination and improve
+    somatic variant detection sensitivity when using a contaminated matched control.
+  url: "/tools/deTiN/"
+  topics:
+  - cancer-genomics
+  - cancer-variants
+  - cancer-genome-atlas
+  - tumor
+  - detection
+  - tumor-in-normal
+  - somatic-mutations
+  - tin
+  contributors:
+  - login: amarotaylor
+    avatar: https://avatars.githubusercontent.com/u/5176213?v=4&s=50
+    url: https://github.com/amarotaylor
+  - login: jett-crowdis
+    avatar: https://avatars.githubusercontent.com/u/43128107?v=4&s=50
+    url: https://github.com/jett-crowdis
+  - login: cbirger
+    avatar: https://avatars.githubusercontent.com/u/2326853?v=4&s=50
+    url: https://github.com/cbirger
+  commits:
+  - date: 2020-11-12 16:41:46.000000000 Z
+    message: |-
+      Merge pull request #31 from jett-crowdis/master
+
+      fix uninitialized variable bug when using only ssnvs
+    url: https://github.com/getzlab/deTiN/commit/47efdff8b1cbf6a0332e7571227cadcaa93a7f0c
+    author_login: amarotaylor
+    author_url: https://github.com/amarotaylor
+  - date: 2020-11-12 16:34:44.000000000 Z
+    message: fix uninitialized variable bug when using only ssnvs
+    url: https://github.com/getzlab/deTiN/commit/d226c778657cefaa65a067d175b2d0f0a3992ca3
+    author_login: jett-crowdis
+    author_url: https://github.com/jett-crowdis
+  - date: 2020-09-22 19:14:33.000000000 Z
+    message: |-
+      Merge pull request #28 from getzlab/cluster_segments_bug
+
+      Fix bug in cluster_segments found while testing on CPTAC data.  This …
+    url: https://github.com/getzlab/deTiN/commit/0f8fb0977a1c16037dafd0dfa7b56813b6798ee5
+    author_login: amarotaylor
+    author_url: https://github.com/amarotaylor
+  - date: 2020-09-22 14:50:22.000000000 Z
+    message: Fix bug in cluster_segments found while testing on CPTAC data.  This
+      problem appeared when the number of segments was less than 3.
+    url: https://github.com/getzlab/deTiN/commit/ee588ed30544a77db09d7e2090a55459e3cc1040
+    author_login: cbirger
+    author_url: https://github.com/cbirger
+  - date: 2020-05-01 12:43:42.000000000 Z
+    message: Update deTiN.py
+    url: https://github.com/getzlab/deTiN/commit/3b0b9598894db0820d79a179b83df8b01f7174d8
+    author_login: ''
+    author_url: ''

@@ -181,9 +181,32 @@ plugins_dir:
 plugins:
   - jekyll-twitter-plugin
 
-tools:
-  - getzlab/deTiN
-  - getzlab/MutSig2CV
-  - getzlab/CLUMPS
-  - getzlab/rnaseqc
-  - getzlab/MSMuTect
+current_tools:
+  - name: deTiN
+    repo: getzlab/deTiN
+  - name: MutSig2CV
+    repo:  getzlab/MutSig2CV
+  - name: CLUMPS 2
+    repo: getzlab/CLUMPS2
+  - name: RNA-SeQC 2
+    repo: getzlab/rnaseqc
+  - name: SignatureAnalyzer
+    repo: getzlab/SignatureAnalyzer
+  - name: MuTect 1
+    repo: getzlab/mutect
+  - name: MSMuTect 2
+    repo: getzlab/MSMuTect2
+  - name: ABSOLUTE
+    repo: getzlab/ABSOLUTE
+  - name: GISTIC 2
+    repo: broadinstitute/gistic2
+  - name: MSMutSig
+    repo: getzlab/MSMutSig
+
+retired_tools:
+  - name: CLUMPS
+    repo: getzlab/CLUMPS
+  - name: MSMuTect1
+    repo: getzlab/MSMuTect1
+
+  
