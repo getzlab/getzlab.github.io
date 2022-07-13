@@ -1,8 +1,8 @@
 ---
 layout: member
 title: Guang Chen
-category: Graduate Student
-position: Masters Student, Harvard Medical School
+category: Associate
+position: Associate Computational Biologist II
 email: guang@broadinstitute.org
 github: 
 image: /assets/images/team/Guang_Chen.jpg
