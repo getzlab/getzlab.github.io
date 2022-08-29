@@ -16,5 +16,5 @@ alum: false
 
 Ruitong is a 2nd year PhD student in Harvard’s Bioinformatics and Integrative Genomics (BIG) program.
 
-Ruitong worked in Bill Sellers’ lab at the Broad Institute for two years as an Associate Computational Biologist before starting in her PhD program at Harvard, which sparked her sparked her enthusiasm for cancer biology and integrative analysis method development. She received a bachelor’s degree in Biology from Hong Kong Polytechnic University, and a Master’s in Computational Biology from Harvard School of Public Health. In her free time, she enjoys cooking shows, movies, and board games.
+Ruitong worked in Bill Sellers’ lab at the Broad Institute for two years as an Associate Computational Biologist before starting in her PhD program at Harvard, which sparked her enthusiasm for cancer biology and integrative analysis method development. She received a bachelor’s degree in Biology from Hong Kong Polytechnic University, and a Master’s in Computational Biology from Harvard School of Public Health. In her free time, she enjoys cooking shows, movies, and board games.
 
