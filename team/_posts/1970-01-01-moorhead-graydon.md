@@ -6,7 +6,7 @@ category: Associate
 position: Associate Computational Biologist
 email: gmoorhea@broadinstitute.org
 github: 
-linkedin: 
+linkedin: graydon-moorhead
 cv: 
 image: /assets/images/team/graydon_moorhead.png
 scholar: T5SsO-sAAAAJ
