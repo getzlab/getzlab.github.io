@@ -4,8 +4,10 @@ title:  "Evolutionary history of transformation from chronic lymphocytic leukemi
 year: "2023"
 journal: Nature Medicine
 authors: Parry EM, Leshchiner I, Guièze R, Johnson C, Tausch E, Parikh SA, Lemvigh C, Broséus J, Hergalant S, Messer C, Utro F, Levovitz C, Rhrissorrakrai K, Li L, Rosebrock D, Yin S, Deng S, Slowik K, Jacobs R, Huang T, Li S, Fell G, Redd R, Lin Z, Knisbacher BA, Livitz D, Schneider C, Ruthen N, Elagina L, Taylor-Weiner A, Persaud B, Martinez A, Fernandes SM, Purroy N, Anandappa AJ, Ma J, Hess J, Rassenti LZ, Kipps TJ, Jain N, Wierda W, Cymbalista F, Feugier P, Kay NE, Livak KJ, Danysh BP, Stewart C, Neuberg D, Davids MS, Brown JR, Parida L, Stilgenbauer S, Getz G, Wu CJ
-corresponding_authors: Stilgenbauer S, Getz G, Wu CJ
-fulltext: 
+first_authors: Parry EM, Leshchiner I, Guièze R
+senior_authors: Stilgenbauer S, Getz G, Wu CJ
+corresponding_authors: Getz G, Wu CJ
+fulltext: https://www.nature.com/articles/s41591-022-02113-6
 doi: 10.1038/s41591-022-02113-6
 pmid: 36624313
 category: paper
