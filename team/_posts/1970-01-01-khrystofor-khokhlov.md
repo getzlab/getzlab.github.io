@@ -7,7 +7,7 @@ position: PhD Student, MIT Department of Chemistry
 email: kkhokhlo@broadinstitute.org
 twitter: 
 github: 
-linkedin: 
+linkedin: khrystofor-khokhlov-41a007a2
 scholar: HKLy9SgAAAAJ&hl
 image: /assets/images/team/Khrystofor_Khokhlov.png
 cv: 
