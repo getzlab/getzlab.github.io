@@ -281,12 +281,12 @@ navorder: 2
 {% endif %}
 
 {% assign current_team = site.categories.team | where: "alum","false" %}
-{% assign current_interns = current_team | where: "category", "Intern" %}
+{% assign current_interns = current_team | where_exp: "item", "item.category == 'Undergraduate Student' or item.category == 'Intern'" %}
 
 {% if current_interns.size > 0 %}
 
 <div class="bigspacer"></div>
-<div class="title subtle">Interns</div>
+<div class="title subtle">Undergraduate Students and Interns</div>
 <div class="bigspacer"></div>
 {% assign memberindex = 0 %}
 {% for member in current_interns reversed %}
