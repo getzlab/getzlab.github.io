@@ -17,4 +17,4 @@ Arielle is a physician and clinical postdoctoral fellow in the Getz lab. She obt
 
 She completed her internal medicine residency at the Massachusetts General Hospital, where she returned to serve as Chief Resident. She is currently completing her medical oncology fellowship at the Dana Farber Cancer Institute/Massachusetts General Hospital, after which she will join the oncology faculty at the Massachusetts General Hospital and Harvard Medical School.
 
-Her research focuses dn the clinical-translational applications of genomics, therapeutic targets, and blood-based biomarkers in breast cancer. Her clinical research focuses primarily on circulating tumor DNA and molecular residual disease. She is co-mentored by Dr. Aditya Bardia and Dr. Gad Getz.
+Her research focuses on the clinical-translational applications of genomics, therapeutic targets, and blood-based biomarkers in breast cancer. Her clinical research focuses primarily on circulating tumor DNA and molecular residual disease. She is co-mentored by Dr. Aditya Bardia and Dr. Gad Getz.
