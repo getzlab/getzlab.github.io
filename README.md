@@ -209,7 +209,7 @@ Once the new paper is added to the papers/_posts directory, it will be fully int
 
 ## team
 
-Navigating to "Team" (on the top navigation bar) displays Getz Lab membership, both present and past.  Members and alumni are listed under the following categories: 
+Navigating to "Team" (on the top navigation bar) displays Getz Lab membership, both present and past.  Members and alumni are listed under the following subheadings: 
 
 - Principal Investigator (Gaddy)
 - Operations and Administration
@@ -219,8 +219,8 @@ Navigating to "Team" (on the top navigation bar) displays Getz Lab membership, b
 - Postdoctoral Researchers
 - Graduate Students
 - Associated Scientists
+- Undergraduate Students and Interns
 - Alumni
-- Intern
 
 Clicking on a team member's name takes one to the member's personal lab webpage.  Each current member of the lab is responsible for creating and/or maintaining their personal webpage.  
 
@@ -238,7 +238,7 @@ The yaml front matter in a lab member page should contain the following:
 	layout: member
 	title: <member name (first last)>
 	citation_names: <comma-separated list of (PMID-style) citation names>
-	category: Principal Investigator | Operations and Administration | Staff Scientist | Staff Engineer | Associate | Postdoctoral Researcher | Graduate Student
+	category: Principal Investigator | Operations and Administration | Staff Scientist | Staff Engineer | Associate | Postdoctoral Researcher | Graduate Student | Associated Scientist | Undergraduate Student | Intern
 	position: <position title>
 	[email: <broad email>]
 	[mask_email: false | true]
