@@ -11,7 +11,7 @@ scholar: KraVtgIAAAAJ&hl
 linkedin: binyamin-knisbacher-299a7649
 image: /assets/images/team/Binyamin_Knisbacher.jpeg
 cv:
-alum: false
+alum: true
 ---
 
 Before joining the Getz lab, Binyamin received a PhD in Computational Biology from Bar-Ilan University, Israel. His graduate studies focused on mechanisms that enhance diversity and accelerate genomic change in evolution and cancer. Specifically, retrotransposon activity dynamics, APOBEC hypermutation and their synergistic impact on genomic diversity. He also took part in pan-cancer RNA-seq analyses of RNA-editing and retrotransposon activity.

@@ -8,7 +8,7 @@ github: kseuro
 linkedin: kaiwstewart
 image: /assets/images/team/kai_stewart.png
 cv:
-alum: false
+alum: true
 ---
 
 I started as an ACB in June 2020 after graduating from Tufts University. I majored
