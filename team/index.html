@@ -279,17 +279,21 @@ navorder: 2
 {% endif %}
 
 {% endif %}
-
+<!-- Had to use the following hack to concatenate and sort collection because
+     github pages Jekyll GEM does not support a working where_exp construct -->
 {% assign current_team = site.categories.team | where: "alum","false" %}
-{% assign current_interns = current_team | where_exp: "item", "item.category == 'Undergraduate Student' or item.category == 'Intern'" %}
+{% assign current_interns = current_team | where: "category", "Intern" %}
+{% assign current_undergraduates = current_team | where: "category", "Undergraduate" %}
+{% assign currents = current_interns | concat: current_undergraduates %}
+{% assign current_undergraduates_and_interns = currents | sort: 'path' %}
 
-{% if current_interns.size > 0 %}
+{% if current_undergraduates_and_interns.size > 0 %}
 
 <div class="bigspacer"></div>
 <div class="title subtle">Undergraduate Students and Interns</div>
 <div class="bigspacer"></div>
 {% assign memberindex = 0 %}
-{% for member in current_interns reversed %}
+{% for member in current_undergraduates_and_interns %}
 	{% assign memberindex = memberindex | plus: 1 %}
 	{% assign colindex = memberindex | modulo: 4 %}
 	{% if colindex == 1 %} <!-- opening of a new row -->
