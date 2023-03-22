@@ -9,6 +9,7 @@ linkedin: kaiwstewart
 image: /assets/images/team/kai_stewart.png
 cv:
 alum: true
+parting_date: 2023-01-27
 ---
 
 I started as an ACB in June 2020 after graduating from Tufts University. I majored
