@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Arielle Medforf
+title: Arielle Medford
 citation_names: Medford A
 category: Postdoctoral Researcher
 position: Postdoctoral Associate

@@ -2,7 +2,7 @@
 layout: member
 title: Xiaomeng Sun
 category: Postdoctoral Researcher
-position: Postdoctoral Scholar
+position: Postdoctoral Associate
 email: sunxiaom@broadinstitute.org
 github: XiaomengSun315
 linkedin: xiaomengsun315
