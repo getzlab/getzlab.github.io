@@ -172,6 +172,7 @@ The yaml front matter should contain the following:
 	first_authors: <comma-separated list of first authors>
 	senior_authors: <comma-separated list of senior authors>
 	corresponding_authors: <comma-separated list of corresponding authors>
+	[explicit_nonlab_citations: <comma-separated list of nonlab author citation names that match lab members' citation names>]
 	[fulltext: <url to full-text journal html>]
 	[pdflink: <url to full-text journal pdf>]
 	[pmid: <pubmed ID>]
@@ -196,6 +197,12 @@ Each current or past lab member's page contains a yaml key/value pair `citation-
 	citation_names: Getz G, Getz GA
 	
 This is how we ensure lab members' names appear in a bold font in any paper added to the lab website.
+
+Situations arise where a lab member's citation name is identical to the citation name of a nonlab author of a paper.  To avoid having that paper listed under the lab member's member page, we provide the optional `explicit_nonlab_citations` yaml front matter field to explicitly call out author citation names that should not be associated with a lab member. 
+
+	explicit_nonlab_citations: Kim S
+
+This is done on a per-paper basis.  When adding a paper to the web site, the submitter should review the author list and make sure none of the paper's author citation names collide with citation names of lab members.
 
 The fulltext key/value pair should contain a link to the article's html text on the journal site.  The pdflink key/value pair should contain a link to the publication's full-text pdf on the journal site.
 
