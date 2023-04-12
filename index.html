@@ -118,16 +118,23 @@ categories:
                     {% assign team_citation_names = team_citation_names | concat: member_citation_names %}
                   {% endif %}
                 {% endfor %}
-                {% assign team_citation_names = team_citation_names | join: ", " %}
 		
 		<div class="bigspacer"></div>
 		<div class="feedbox pad-left">
                         {% for paper in site.categories.papers limit:6 %}
 
+                          {% assign pruned_team_citation_names = "" | split: "," %}
+			  {% for citation_name in team_citation_names %}
+                            {% unless paper.explicit_nonlab_citations contains citation_name %}
+                              {% assign pruned_team_citation_names = pruned_team_citation_names | push: citation_name %}
+                            {% endunless %}
+                          {% endfor %}
+			  {% assign pruned_team_citation_names = pruned_team_citation_names | join: ", " %} 
+
                           {% assign first_authors = paper.first_authors | split: ", " %}
                           {% assign revised_first_authors = "" | split: ", " %}
                           {% for first_author in first_authors %}
-                            {% if team_citation_names contains first_author %}        
+                            {% if pruned_team_citation_names contains first_author %}        
                               {% assign revised_first_author = "<b>" | append: first_author | append: "</b>" %}
                               {% assign revised_first_authors = revised_first_authors | push: revised_first_author %}
                             {% else %}

@@ -10,6 +10,7 @@ authors: "Lohr JG, Adalsteinsson VA, Cibulskis K, Choudhury AD, Rosenberg M, Cru
 first_authors: "Lohr JG, Adalsteinsson VA, Cibulskis K"
 senior_authors:  "Getz G, Boehm JS, Love JC"
 corresponding_authors: "Getz G, Boehm JS, Love JC"
+explicit_nonlab_citations: "Kim S"
 pdfLink:
 fulltext:
 doi: 10.1038/nbt.2892

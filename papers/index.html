@@ -41,12 +41,19 @@ See <a href="https://pubmed.ncbi.nlm.nih.gov/?term=gad+getz&sort=date">PubMed</a
     {% assign team_citation_names = team_citation_names | concat: member_citation_names %}
   {% endif %}
 {% endfor %}
-{% assign team_citation_names = team_citation_names | join: ", " %}
 
 <div class="bigspacer"></div>
 
 {% assign year = "" %}
 {% for paper in site.categories.papers %}
+
+    {% assign pruned_team_citation_names = "" | split: "," %}
+    {% for citation_name in team_citation_names %}
+      {% unless paper.explicit_nonlab_citations contains citation_name %}
+        {% assign pruned_team_citation_names = pruned_team_citation_names | push: citation_name %}
+      {% endunless %}
+    {% endfor %}
+
     {% if paper.year != year %}
       {% assign year = paper.year %}
       <div class="anchor"><a name={{ year }}></a></div>
@@ -58,7 +65,7 @@ See <a href="https://pubmed.ncbi.nlm.nih.gov/?term=gad+getz&sort=date">PubMed</a
     {% assign shortened_authors = "" | split: ", " %}
   
     {% for first_author in first_authors %}
-      {% if team_citation_names contains first_author %}	      
+      {% if pruned_team_citation_names contains first_author %}	      
         {% assign revised_first_author = "<b>" | append: first_author | append: "</b>" %}
         {% assign shortened_authors = shortened_authors | push: revised_first_author %}
       {% else %}
@@ -69,7 +76,7 @@ See <a href="https://pubmed.ncbi.nlm.nih.gov/?term=gad+getz&sort=date">PubMed</a
       
     {% assign shortened_authors = shortened_authors | push: "[...]" %}
     {% for senior_author in senior_authors %}
-      {% if team_citation_names contains senior_author %}	      
+      {% if pruned_team_citation_names contains senior_author %}	      
         {% assign revised_senior_author = "<b>" | append: senior_author | append: "</b>" %}
         {% assign shortened_authors = shortened_authors | push: revised_senior_author %}
       {% else %}

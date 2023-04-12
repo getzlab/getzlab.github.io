@@ -10,6 +10,7 @@ authors: "Costello M, Pugh TJ, Fennell TJ, Stewart C, Lichtenstein L, Meldrim JC
 first_authors: "Costello M"
 senior_authors: "Getz G"
 corresponding_authors: "Costello M"
+explicit_nonlab_citations: Kim S
 pdflink:
 fulltext:
 doi: 10.1093/nar/gks1443
