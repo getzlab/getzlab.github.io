@@ -235,7 +235,7 @@ These pages reside in the folder team/_posts.  The file's name must follow the f
 
 	1970-01-01-<last name>-<first name>.md
 	
-While a date is still required, we wanted individuals to be listed in alphabetical order within each category; hence all needed to have the same date stamp...I needed an arbitrary date so I chose the Unix epoch.
+While a date is still required, we wanted individuals to be listed in alphabetical order within each category; hence all needed to have the same date stamp...I needed an arbitrary date so I chose the Unix epoch.  IMPORTANT: your last and first names must be in lower case in the filename.
 	
 For many lab members a baseline page has already been created containing a minimal amount of information (name, category position, citation_names, alum status).  You should update this page with your personal information; e.g., twitter, github userid, google scholar id, linkedin id, image, cv).
 
