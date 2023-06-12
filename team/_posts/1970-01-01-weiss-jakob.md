@@ -1,15 +1,15 @@
 ---
 layout: member
 title: Jakob Weiss
-citation_names: "Weiss J"
+citation_names: "Weiss JH"
 category: Associate
 position: Associate Computational Biologist I
 email: jweiss@broadinstitute.org
 github: 
-linkedin: 
+linkedin: jakob-h-weiss
 cv: 
 image: /assets/images/team/jakob_weiss.jpg
-scholar: 
+scholar: iGacRfkAAAAJ
 alum: false
 ---
 
