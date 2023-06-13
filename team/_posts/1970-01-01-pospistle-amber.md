@@ -6,6 +6,7 @@ category: Intern
 position: Research Intern
 email: apospist@broadinstitute.org
 github: 
+linkedin: amber-pospistle
 image: /assets/images/team/amber_pospistle.jpg
 cv:
 alum: false
