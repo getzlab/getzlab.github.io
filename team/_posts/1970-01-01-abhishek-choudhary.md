@@ -2,7 +2,7 @@
 layout: member
 title: Abhishek Choudhary
 citation_names: "Choudhary A" 
-category: Associated Scientists
+category: Associated Scientist
 position: Computational Biologist
 email: abhich@broadinstitute.org 
 scholar: 
