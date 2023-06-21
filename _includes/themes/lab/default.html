@@ -77,7 +77,16 @@
         </ul>
 
         <ul class="nav navbar-nav navbar-right pull-right">
-          {% assign pages_list = (site.pages | sort: 'navorder') %}
+	  <!-- {% assign pages_list = (site.pages  | sort: 'navorder') %} -->
+	  <!-- code below eliminates the Join selection from the navbar -->
+          {% assign tmp_pages_list = (site.pages  | sort: 'navorder') %}
+	  {% assign pages_list = "" | split: ',' %}
+	  {% for page in tmp_pages_list %}
+            {% if page.title != "Join" %}
+              {% assign pages_list = pages_list | push: page %}
+	    {% endif %}
+	  {% endfor %}
+	  <!-- -->
           {% assign group = 'navigation' %}
           {% include JB/pages_list %}
           <li class="dropdown nav navbar-nav">
