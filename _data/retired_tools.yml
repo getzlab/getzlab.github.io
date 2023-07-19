@@ -2,7 +2,7 @@
 - repo: getzlab/CLUMPS
   title: CLUMPS
   owner: getzlab
-  description:
+  description: 
   url: "/tools/CLUMPS/"
   topics: []
   contributors:
@@ -40,7 +40,7 @@
 - repo: getzlab/MSMuTect1
   title: MSMuTect1
   owner: getzlab
-  description:
+  description: 
   url: "/tools/MSMuTect1/"
   topics: []
   contributors:
