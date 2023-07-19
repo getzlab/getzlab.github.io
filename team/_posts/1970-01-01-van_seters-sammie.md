@@ -2,8 +2,8 @@
 layout: member
 title: Samantha Van Seters
 citation_names: "Van Seters S"
-category: Intern
-position: Research Intern
+category: Staff Engineer
+position: Associate Software Engineer
 email: svansete@broadinstitute.org
 github: 
 image: /assets/images/team/Sammie_Van_Seters.jpg
@@ -12,6 +12,4 @@ alum: false
 parting_date: 2022-08-17
 ---
 
-Samantha joined the Getz Lab in May 2022 as a summer intern. She is currently working on creating an interactive dashboard to integrate mutation information, phylogenetic data, copy number profiles, etc. on a patient-by-patient basis for review and annotation.
-She is currently a senior at Penn State University where she studies Computer Science with a minor in Biomedical Engineering. In the future, she plans to pursue a career combining the two, using a computational approach to solve biological problems.
-Outside of the lab, she enjoys spending time on Lake Winnipesaukee with her family, doing yoga, and reading.
+Samantha joined the Getz Lab as an intern in May 2022, continued her internship while finishing her undergraduate degree at Penn State University majoring in Computer Science and minoring in Biomedical Engineering, and joined the lab full time as an Associate Software Engineer in July 2023. She is currently working to develop standardized visualizations to incorporate in the new Getz Lab Project portal to streamline upstream analysis. Outside of the lab, she enjoys spending time on Lake Winnipesaukee with her family, doing yoga, and reading.
