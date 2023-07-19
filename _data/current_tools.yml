@@ -7,41 +7,90 @@
   url: "/tools/ABSOLUTE/"
   topics: []
   contributors:
-  - login: hurrialice
-    avatar: https://avatars.githubusercontent.com/u/30106174?v=4&s=50
-    url: https://github.com/hurrialice
   - login: julianhess
     avatar: https://avatars.githubusercontent.com/u/328077?v=4&s=50
     url: https://github.com/julianhess
+  - login: hurrialice
+    avatar: https://avatars.githubusercontent.com/u/30106174?v=4&s=50
+    url: https://github.com/hurrialice
+  - login: cchu70
+    avatar: https://avatars.githubusercontent.com/u/34669546?v=4&s=50
+    url: https://github.com/cchu70
   - login: cbirger
     avatar: https://avatars.githubusercontent.com/u/2326853?v=4&s=50
     url: https://github.com/cbirger
   commits:
-  - date: 2022-04-24 22:07:32.000000000 Z
-    message: Add forcecall task
-    url: https://github.com/getzlab/ABSOLUTE/commit/cd443ec9370df98778d98227bb9a11c3e24c00cb
+  - date: 2023-03-22 21:17:38.000000000 Z
+    message: |-
+      Merge pull request #4 from cchu70/master
+
+      remove weird blank characters
+    url: https://github.com/getzlab/ABSOLUTE/commit/3b6fc87f37aef46c22acd78f4e4f808f99302b39
     author_login: julianhess
     author_url: https://github.com/julianhess
-  - date: 2022-04-24 22:07:24.000000000 Z
-    message: Formatting
-    url: https://github.com/getzlab/ABSOLUTE/commit/e7c310f001ab688128fe60ee93530f1170daabd6
+  - date: 2023-03-22 20:17:39.000000000 Z
+    message: remove weird blank characters
+    url: https://github.com/getzlab/ABSOLUTE/commit/0438836e32c1a7c658f5ff969267f8c1a8aea96f
+    author_login: cchu70
+    author_url: https://github.com/cchu70
+  - date: 2023-03-22 19:45:49.000000000 Z
+    message: |-
+      Merge pull request #3 from cchu70/master
+
+      add R script to docker build
+    url: https://github.com/getzlab/ABSOLUTE/commit/e2a988c2305edb7f6c889da623c10a87e1f34aa3
     author_login: julianhess
     author_url: https://github.com/julianhess
-  - date: 2022-04-24 21:14:01.000000000 Z
-    message: Add extract task
-    url: https://github.com/getzlab/ABSOLUTE/commit/f5cdbd25fc5fd7fd62746ef9555cfa5cfc9c492b
+  - date: 2023-03-22 19:44:20.000000000 Z
+    message: add R script to docker build
+    url: https://github.com/getzlab/ABSOLUTE/commit/89ecde00cc31254f2c9eae0091908fa8ad516733
+    author_login: cchu70
+    author_url: https://github.com/cchu70
+  - date: 2023-03-22 19:20:26.000000000 Z
+    message: |-
+      Merge pull request #2 from cchu70/master
+
+      R script to format seg data from absolute R data for Phylogic SingleP…
+    url: https://github.com/getzlab/ABSOLUTE/commit/4a205a5a98c9242774bbfb6e7462dee1b44f93d9
     author_login: julianhess
     author_url: https://github.com/julianhess
-  - date: 2022-04-24 21:13:55.000000000 Z
-    message: Update to new wolF syntax
-    url: https://github.com/getzlab/ABSOLUTE/commit/452398d2166c0ea9a7a92f5a8470be1d074ee6ba
-    author_login: julianhess
-    author_url: https://github.com/julianhess
-  - date: 2022-04-24 15:12:40.000000000 Z
-    message: Add deploy script
-    url: https://github.com/getzlab/ABSOLUTE/commit/2817200b63704c689c1eb46abcd453273de8f168
-    author_login: julianhess
-    author_url: https://github.com/julianhess
+- repo: getzlab/AsymTools2
+  title: AsymTools 2
+  owner: getzlab
+  description: AsymTools is a package for analyzing transcriptional and replicative
+    mutational strand asymmetries in cancer sequencing datasets.
+  url: "/tools/AsymTools 2/"
+  topics: []
+  contributors:
+  - login: njharlen
+    avatar: https://avatars.githubusercontent.com/u/22821530?v=4&s=50
+    url: https://github.com/njharlen
+  commits:
+  - date: 2023-07-17 16:48:58.000000000 Z
+    message: Update README.md
+    url: https://github.com/getzlab/AsymTools2/commit/a29f54df0740c2adfed94aeedca88c8d47e4518c
+    author_login: njharlen
+    author_url: https://github.com/njharlen
+  - date: 2023-07-17 16:44:24.000000000 Z
+    message: Added legacy asymtools to repo
+    url: https://github.com/getzlab/AsymTools2/commit/44e5905171960f3c0682f421180a51bf691e404f
+    author_login: njharlen
+    author_url: https://github.com/njharlen
+  - date: 2023-04-21 14:39:57.000000000 Z
+    message: Update README.md
+    url: https://github.com/getzlab/AsymTools2/commit/ccd0a1ae017f318367a77599928d75115fb5c7a5
+    author_login: njharlen
+    author_url: https://github.com/njharlen
+  - date: 2023-04-21 14:31:56.000000000 Z
+    message: changed iloc to loc to avoid bugs if a mutation types isn't present
+    url: https://github.com/getzlab/AsymTools2/commit/741cbc63e6f55b33c3910dd426620297e4afacae
+    author_login: njharlen
+    author_url: https://github.com/njharlen
+  - date: 2023-04-21 14:29:21.000000000 Z
+    message: Merge branch 'main' of github.com:getzlab/AsymTools2 into main
+    url: https://github.com/getzlab/AsymTools2/commit/cf5cebf1d97949265a02bfbe2a3ea67cc74e0d94
+    author_login: njharlen
+    author_url: https://github.com/njharlen
 - repo: getzlab/CLUMPS2
   title: CLUMPS 2
   owner: getzlab
@@ -49,42 +98,42 @@
   url: "/tools/CLUMPS 2/"
   topics: []
   contributors:
-  - login: shankara-a
-    avatar: https://avatars.githubusercontent.com/u/16708493?v=4&s=50
-    url: https://github.com/shankara-a
-  - login: ajdunford
-    avatar: https://avatars.githubusercontent.com/u/4085800?v=4&s=50
-    url: https://github.com/ajdunford
   - login: julianhess
     avatar: https://avatars.githubusercontent.com/u/328077?v=4&s=50
     url: https://github.com/julianhess
+  - login: ajdunford
+    avatar: https://avatars.githubusercontent.com/u/4085800?v=4&s=50
+    url: https://github.com/ajdunford
+  - login: shankara-a
+    avatar: https://avatars.githubusercontent.com/u/16708493?v=4&s=50
+    url: https://github.com/shankara-a
   commits:
-  - date: 2022-08-23 17:39:54.000000000 Z
-    message: |-
-      Merge pull request #3 from getzlab/clumps_maxtries
-
-      increasing timeout to 2hrs
-    url: https://github.com/getzlab/CLUMPS2/commit/244b9de8f479bb5d47c349da8f7ab9c861394cd4
+  - date: 2023-03-06 18:16:50.000000000 Z
+    message: resolving merge issues
+    url: https://github.com/getzlab/CLUMPS2/commit/13f8c6d3caac5164ad1022b4d7c8f5b1a534decf
     author_login: ajdunford
     author_url: https://github.com/ajdunford
-  - date: 2022-07-24 16:23:56.000000000 Z
-    message: Pass sampler into workflow
-    url: https://github.com/getzlab/CLUMPS2/commit/7999b3023b1dcadca4efae2cb32b96b84e34f230
+  - date: 2023-03-06 18:12:25.000000000 Z
+    message: adding comments for clumps.py
+    url: https://github.com/getzlab/CLUMPS2/commit/ca335c5ed83a6b776e83aa5f91c9fbce905b6ed2
+    author_login: ajdunford
+    author_url: https://github.com/ajdunford
+  - date: 2023-03-02 14:13:37.000000000 Z
+    message: |-
+      Merge pull request #4 from getzlab/speed
+
+      Speed up WAP calculations by 40x
+    url: https://github.com/getzlab/CLUMPS2/commit/7daef0838e448b9c9c58aae206da43bcb4ec7ec7
     author_login: julianhess
     author_url: https://github.com/julianhess
-  - date: 2022-07-23 16:26:41.000000000 Z
-    message: Workflow natively passes directories between tasks
-    url: https://github.com/getzlab/CLUMPS2/commit/85dcf410eb40d53d3716c85480edf40d474d0b33
+  - date: 2022-10-05 16:32:57.000000000 Z
+    message: Install dependencies separately for faster build
+    url: https://github.com/getzlab/CLUMPS2/commit/d196a4b8a30cfe31847de5c7404e05775caff2ee
     author_login: julianhess
     author_url: https://github.com/julianhess
-  - date: 2022-07-21 22:31:01.000000000 Z
-    message: Add wolF scripts (draft)
-    url: https://github.com/getzlab/CLUMPS2/commit/d8e716ea355a7389fdec1a477cc208da4d1e7a6a
-    author_login: julianhess
-    author_url: https://github.com/julianhess
-  - date: 2022-07-21 19:03:00.000000000 Z
-    message: Update to new UniProt API
-    url: https://github.com/getzlab/CLUMPS2/commit/6802389a4ffb753c945580730f2dfa3efdac03e3
+  - date: 2022-10-05 16:18:46.000000000 Z
+    message: Fix typo
+    url: https://github.com/getzlab/CLUMPS2/commit/f44c717237907c2c701e03a5879819d456882eec
     author_login: julianhess
     author_url: https://github.com/julianhess
 - repo: getzlab/deTiN
@@ -395,7 +444,7 @@
 - repo: broadinstitute/PhylogicNDT
   title: PhylogicNDT
   owner: broadinstitute
-  description:
+  description: 
   url: "/tools/PhylogicNDT/"
   topics: []
   contributors:
@@ -462,6 +511,26 @@
     avatar: https://avatars.githubusercontent.com/u/5237151?v=4&s=50
     url: https://github.com/joshua-gould
   commits:
+  - date: 2023-03-12 06:28:25.000000000 Z
+    message: Precision fix for metrics aggregation
+    url: https://github.com/getzlab/rnaseqc/commit/d7422d4f09846c25701bb57999b418a1d283410b
+    author_login: francois-a
+    author_url: https://github.com/francois-a
+  - date: 2023-01-17 20:05:11.000000000 Z
+    message: Fix for seaborn deprecation
+    url: https://github.com/getzlab/rnaseqc/commit/8134dcf1a557ac668a239a0444a21deeedf39ec9
+    author_login: francois-a
+    author_url: https://github.com/francois-a
+  - date: 2022-10-14 21:35:42.000000000 Z
+    message: |-
+      Fixed median calculation errors
+
+      Fixed 3/5' bias percentiles not averaging 2 neighboring elements in even case. Fixed median calculation not properly handling length 1 array
+
+      closes #74
+    url: https://github.com/getzlab/rnaseqc/commit/c426536132b7f90e108707c5e4da206097e31ad7
+    author_login: agraubert
+    author_url: https://github.com/agraubert
   - date: 2022-05-26 06:53:13.000000000 Z
     message: Fix for Pandas warning
     url: https://github.com/getzlab/rnaseqc/commit/19967f36fe51b4a497606a368e5b3b657b0339a8
@@ -472,21 +541,6 @@
     url: https://github.com/getzlab/rnaseqc/commit/cff231b55ec4c5292213c9ab5d30b1f183956726
     author_login: francois-a
     author_url: https://github.com/francois-a
-  - date: 2021-12-16 20:56:41.000000000 Z
-    message: Added options, fix for CDF plot
-    url: https://github.com/getzlab/rnaseqc/commit/286f99dfd4164d33014241dd4f3149da0cddf5bf
-    author_login: francois-a
-    author_url: https://github.com/francois-a
-  - date: 2021-09-16 19:01:18.000000000 Z
-    message: Increase cloudbuild timeout
-    url: https://github.com/getzlab/rnaseqc/commit/5de80ec503ebb5cfcfc185291c32c839da191f74
-    author_login: agraubert
-    author_url: https://github.com/agraubert
-  - date: 2021-09-16 18:37:25.000000000 Z
-    message: Fixed cloudbuild
-    url: https://github.com/getzlab/rnaseqc/commit/e9ae46a20ce1346bb0a7ad78f22eb84c69f7de23
-    author_login: agraubert
-    author_url: https://github.com/agraubert
 - repo: getzlab/SignatureAnalyzer
   title: SignatureAnalyzer
   owner: getzlab
@@ -514,41 +568,38 @@
     avatar: https://avatars.githubusercontent.com/u/328077?v=4&s=50
     url: https://github.com/julianhess
   commits:
-  - date: 2022-04-08 21:10:59.000000000 Z
+  - date: 2023-05-17 20:18:27.000000000 Z
+    message: signature 40 mislabeled
+    url: https://github.com/getzlab/SignatureAnalyzer/commit/4b1db4381b10bce3bbed8c8a6e1b83e54f1ed877
+    author_login: yoakiyama
+    author_url: https://github.com/yoakiyama
+  - date: 2023-01-17 21:40:07.000000000 Z
     message: |-
-      Merge pull request #44 from getzlab/reverse_complement_debug
+      Merge pull request #47 from getzlab/reverse_complement_debug
 
-      Reverse complement debug
-    url: https://github.com/getzlab/SignatureAnalyzer/commit/19a00a73195ba011913eefb818997d98e8d7485e
+      Reverse complement debug for plotting
+    url: https://github.com/getzlab/SignatureAnalyzer/commit/064b10f4284d0a3615b5acebb0f3b434f74a788c
     author_login: yoakiyama
     author_url: https://github.com/yoakiyama
-  - date: 2022-04-08 20:21:14.000000000 Z
-    message: comment supervised notebook
-    url: https://github.com/getzlab/SignatureAnalyzer/commit/dc27f9cb88ea1ada6357a1157054a75785b77d0c
+  - date: 2023-01-17 21:39:30.000000000 Z
+    message: debug TA plotting
+    url: https://github.com/getzlab/SignatureAnalyzer/commit/e3f548165649aaa4cca64b884c8fa77fa9867e95
     author_login: yoakiyama
     author_url: https://github.com/yoakiyama
-  - date: 2022-04-06 02:56:25.000000000 Z
-    message: move supervised tutorial and push cosine similarity notebook for debugging
-    url: https://github.com/getzlab/SignatureAnalyzer/commit/f8d80be401f6c9adfbc1c54e2e3262de41c7ea65
+  - date: 2023-01-17 21:19:09.000000000 Z
+    message: debug TA plotting
+    url: https://github.com/getzlab/SignatureAnalyzer/commit/48c160b35394ba327ef33689519af7df56c77cce
     author_login: yoakiyama
     author_url: https://github.com/yoakiyama
-  - date: 2022-04-05 22:20:42.000000000 Z
-    message: patch reverse complement bug and add documentation to plotting functions
-    url: https://github.com/getzlab/SignatureAnalyzer/commit/2ffadedc946c0d784b5934947d33cdf68d72d4d7
-    author_login: yoakiyama
-    author_url: https://github.com/yoakiyama
-  - date: 2022-03-23 19:57:31.000000000 Z
-    message: |-
-      Merge pull request #42 from cchu70/master
-
-      semi-supervised notebook example
-    url: https://github.com/getzlab/SignatureAnalyzer/commit/6e7db02101f880dca47ea6d017cbfd9ca117c2aa
+  - date: 2023-01-17 21:10:29.000000000 Z
+    message: reverse complement bug plotting - _map_sbs_sigs_back
+    url: https://github.com/getzlab/SignatureAnalyzer/commit/f05c7d96bbf240873e5a8aef02802afecc803224
     author_login: yoakiyama
     author_url: https://github.com/yoakiyama
 - repo: broadinstitute/tensorqtl
   title: tensorQTL
   owner: broadinstitute
-  description: Ultrafast GPU-based QTL mapper
+  description: Ultrafast GPU-enabled QTL mapper
   url: "/tools/tensorQTL/"
   topics: []
   contributors:
@@ -559,31 +610,28 @@
     avatar: https://avatars.githubusercontent.com/u/77017011?v=4&s=50
     url: https://github.com/susie-song
   commits:
-  - date: 2022-08-18 06:19:25.000000000 Z
-    message: Added read_alleles* functions
-    url: https://github.com/broadinstitute/tensorqtl/commit/de17e8db83a0af312205dc3af89e13abf209fa47
+  - date: 2023-07-17 15:12:04.000000000 Z
+    message: Fix for input type
+    url: https://github.com/broadinstitute/tensorqtl/commit/69972fa7db277f11106bf2aa4749b18b985cd2d2
     author_login: francois-a
     author_url: https://github.com/francois-a
-  - date: 2022-08-15 23:54:09.000000000 Z
-    message: Added support for paired covariates in calculate_replication
-    url: https://github.com/broadinstitute/tensorqtl/commit/3b2b4150e639571bb4048f15508c7ad7fbe4f368
+  - date: 2023-07-13 16:20:58.000000000 Z
+    message: Added max_effects option
+    url: https://github.com/broadinstitute/tensorqtl/commit/888cd70f630b4b3d0769e572b4c7c1ee2af96edb
     author_login: francois-a
     author_url: https://github.com/francois-a
-  - date: 2022-08-13 07:28:42.000000000 Z
-    message: dof fix for phenotype-paired covariates
-    url: https://github.com/broadinstitute/tensorqtl/commit/503f43ed6644fc8bf9839ecf732b682344d58fd0
+  - date: 2023-07-10 18:40:06.000000000 Z
+    message: Fix for all-numerical sample IDs
+    url: https://github.com/broadinstitute/tensorqtl/commit/b12e8e93e39deb547410b518de5c09c1931b25b7
     author_login: francois-a
     author_url: https://github.com/francois-a
-  - date: 2022-08-13 06:37:33.000000000 Z
-    message: Added option for phenotype-specific covariates
-    url: https://github.com/broadinstitute/tensorqtl/commit/6c83bc4edd223e609132a470aef4fed804b58c3b
+  - date: 2023-07-09 01:56:29.000000000 Z
+    message: Updated examples for v1.0.8 and Pgenlib
+    url: https://github.com/broadinstitute/tensorqtl/commit/45189667fdfffe11ef9b86b53fd2a78b1da9a761
     author_login: francois-a
     author_url: https://github.com/francois-a
-  - date: 2022-07-22 06:28:29.000000000 Z
-    message: |-
-      Update README.md
-
-      Added pgenlib installation steps
-    url: https://github.com/broadinstitute/tensorqtl/commit/a26b7c5e798dd308d06224bf4cc27543606057f4
+  - date: 2023-07-03 04:34:10.000000000 Z
+    message: Updates for v1.0.8
+    url: https://github.com/broadinstitute/tensorqtl/commit/5cc7692df35e7485a61ac6e13489d5a38b444534
     author_login: francois-a
     author_url: https://github.com/francois-a

@@ -203,6 +203,8 @@ current_tools:
     repo: vanallenlab/phial
   - name: tensorQTL
     repo: broadinstitute/tensorqtl
+  - name: AsymTools 2
+    repo: getzlab/AsymTools2
 
 retired_tools:
   - name: CLUMPS
