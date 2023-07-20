@@ -5,11 +5,11 @@ citation_names: "Merrell C"
 category: Staff Scientist
 position: Computational Biologist
 email: merrell@broadinstitute.org
-scholar: 
-github: 
+scholar: YXS1tFIAAAAJ
+github: dpmerrell
 image: /assets/images/team/david_merrell.jpg
 cv:
-linkedin: 
+linkedin: david-merrell-22879a39
 alum: false
 ---
 
