@@ -8,6 +8,7 @@ github:
 image: /assets/images/team/Guang_Chen.jpg
 cv:
 alum: true
+parting_date: 2023-06-14
 ---
 
 Guang joined the Getz lab in the fall of 2020, as a graduate student in the Master of Medical Sciences in Clinical Investigation Program at Harvard Medical School of Harvard University. He graduated in 2022 and worked as visiting researcher at Getz lab. He is primarily focused on analyzing whole exome sequencing (WES) data to uncover mechanisms of drug resistance in cancer. 
