@@ -20,6 +20,9 @@ inst_broad:
 dept_broad_cancer_program:
   url: https://www.broadinstitute.org/cancer
   name: Cancer Program
+broad_lab:
+  url: https://www.broadinstitute.org/labs/getz
+  name: Getz Lab @ Broad
 inst_mgh:
   url: https://www.massgeneral.org
   name: MGH

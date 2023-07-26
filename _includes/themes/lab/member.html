@@ -113,7 +113,23 @@
 			<a class="off" href="https://linkedin.com/in/{{ member.linkedin }}">{{ member.linkedin }}</a>
 		</div>		
 		<div class="bigspacer"></div>			
-		{% endif %}						
+		{% endif %}
+
+		{% if member.other_institution %}
+		<div class="smallhead">
+			{{ member.other_institution }}
+		</div>	
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-institution fa-fw"></i>
+			<a class="off" href="{{ member.other_institution_user_page }}">{{ member.title }}</a>
+		</div>		
+		<div class="bigspacer"></div>			
+		{% endif %}
+		
+		
+		
+		
 		{% if member.disclosures %}
 		<div class="smallhead">
 			Disclosures

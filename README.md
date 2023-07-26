@@ -258,6 +258,8 @@ The yaml front matter in a lab member page should contain the following:
 	[disclosures: <url to lab member's disclosures statement>]
 	alum: false | true
 	[parting_date: <date left lab, YYYY-MM-DD]
+	[other_institution: < other institution member is affiliated with>
+	other_intitution_user_page: <url to user page at affiliated institution>]
 	---
 
 Front matter fields listed in brackets above are optional. 
