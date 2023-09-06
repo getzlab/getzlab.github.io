@@ -11,6 +11,7 @@ linkedin: kristy-schlueter-kuck
 scholar: HwChfm0AAAAJ&hl
 cv:
 alum: true
+parting_date: 2023-08-16
 ---
 
 Kristy has been a computational biologist in the Getz lab since September 2019.  Prior to joining the lab, she obtained her Ph.D. in 2018 from Stanford University in Mechanical Engineering under the guidance of John Dabiri.  There, she investigated transport in ocean surface currents using clustering and graph-theory-based models.  She also completed a postdoc at Brown University as Hibbitt Fellow in the School of Engineering in 2019, working with Kenny Breuer and Dan Harris.  
