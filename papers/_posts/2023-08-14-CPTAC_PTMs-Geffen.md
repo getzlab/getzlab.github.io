@@ -5,7 +5,7 @@ year: "2023"
 journal: Cell
 authors: Geffen Y, Anand S, Akiyama Y, Yaron TM, Song Y, Johnson JL, Govindan A, Babur Ö, Li Y, Huntsman E, Wang LB, Birger C, Heiman DI, Zhang Q, Miller M, Maruvka YE, Haradhvala NJ, Calinawan A, Belkin S, Kerelsky A, Clauser KR, Krug K, Satpathy S, Payne SH, Mani DR, Gillette MA, Dhanasekaran SM, Thiagarajan M, Mesri M, Rodriguez H, Robles AI, Carr SA, Lazar AJ, Aguet F, Cantley LC, Ding L, Getz G  
 first_authors: Geffen Y, Anand S, Akiyama Y, Yaron TM, Song Y
-senior_authors: Aguet F, Cantley LC, Ding L, Getz G
+senior_authors: Getz G
 corresponding_authors: Aguet F, Cantley LC, Ding L, Getz G
 fulltext: https://www.cell.com/cell/fulltext/S0092-8674(23)00781-X?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS009286742300781X%3Fshowall%3Dtrue#%20
 doi: 10.1016/j.cell.2023.07.013
