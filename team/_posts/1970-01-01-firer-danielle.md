@@ -7,7 +7,8 @@ email: dfirer@broadinstitute.org
 github: 
 cv:
 image: /assets/images/team/dfirer.jpg
-alum: false
+alum: true
+parting_date: 2023-08-04
 ---
 
 Danielle joined the Getz Lab in the summer of 2020 as an Associate Computational Biologist. She currently uses single cell RNA-sequencing data to elucidate progression of precursor conditions of Multiple Myeloma.
