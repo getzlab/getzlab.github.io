@@ -5,11 +5,11 @@ citation_names: "Swamy VN"
 category: Staff Scientist
 position: Computational Biologist
 email: vasuki@broadinstitute.org
-scholar: 
+scholar: EmQmJS8AAAAJ
 github: 
 image: /assets/images/team/vasuki_swamy.jpg
 cv:
-linkedin: 
+linkedin: vasukinarasimhaswamy
 alum: false
 ---
 
