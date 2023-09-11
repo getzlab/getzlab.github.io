@@ -8,7 +8,8 @@ email: yakiyama@broadinstitute.org
 twitter: yoakiyama
 github: yoakiyama
 scholar: 59vnUOgAAAAJ
-alum: false
+alum: true
+parting_date: 2023-09-08
 image: /assets/images/team/Yo_Akiyama.JPG
 ---
 
