@@ -7,7 +7,7 @@ position: Computational Biologist
 email: vasuki@broadinstitute.org
 scholar: EmQmJS8AAAAJ
 github: 
-image: /assets/images/team/vasuki_swamy.jpg
+image: /assets/images/team/Vasuki_Swamy.jpg
 cv:
 linkedin: vasukinarasimhaswamy
 alum: false
