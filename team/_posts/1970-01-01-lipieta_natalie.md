@@ -5,7 +5,7 @@ citation_names: "Lipieta N"
 category: Intern
 position: Research Intern
 email: lipieta@broadinstitute.org
-github: 
+github: nlipieta
 linkedin: 
 image: /assets/images/team/natalie_lipieta.png
 cv:
