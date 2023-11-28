@@ -3,7 +3,7 @@ layout: member
 title: Mark Holton
 #citation_names: <comma-separated list of (PMID-style) citation names>
 category: Associate 
-position: Associate Computational Biologist
+position: Associate Computational Biologist II
 email: mholton@broadinstitute.org
 #[twitter: <twitter handle>]
 #[github: <github userid>]
