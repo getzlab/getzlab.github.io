@@ -25,13 +25,16 @@
     <link rel="shortcut icon" href="{{ ASSET_PATH }}/images/logo/getzlab-favicon-108.png"/>
 
     <!-- Custom fonts and icons via Font Awesome, http://fortawesome.github.io/Font-Awesome/ -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
     <!-- Fonts via Google -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700' rel='stylesheet' type='text/css'/>
 
     <!-- Math via MathJax -->
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    <!-- Jekyll SEO (Search Engine Optimization) -->
+    {% seo %}
 
   </head>
 
@@ -74,7 +77,16 @@
         </ul>
 
         <ul class="nav navbar-nav navbar-right pull-right">
-          {% assign pages_list = (site.pages | sort: 'navorder') %}
+	  <!-- {% assign pages_list = (site.pages  | sort: 'navorder') %} -->
+	  <!-- code below eliminates the Join selection from the navbar -->
+          {% assign tmp_pages_list = (site.pages  | sort: 'navorder') %}
+	  {% assign pages_list = "" | split: ',' %}
+	  {% for page in tmp_pages_list %}
+            {% if page.title != "Join" %}
+              {% assign pages_list = pages_list | push: page %}
+	    {% endif %}
+	  {% endfor %}
+	  <!-- -->
           {% assign group = 'navigation' %}
           {% include JB/pages_list %}
           <li class="dropdown nav navbar-nav">
@@ -133,9 +145,9 @@
  
 
 
-    {% include JB/analytics %}
 
-
+    {% include analytics/google-gtag.html %}
+  
     <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

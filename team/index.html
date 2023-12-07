@@ -240,11 +240,95 @@ navorder: 2
 </div><div class="bigspacer"></div>
 {% endif %}
 
+{% assign current_team = site.categories.team | where: "alum","false" %}
+{% assign current_associated_scientists = current_team | where: "category", "Associated Scientist" %}
+
+{% if current_associated_scientists.size > 0 %}
+
+<div class="bigspacer"></div>
+<div class="title subtle">Associated Scientists</div>
+<div class="bigspacer"></div>
+{% assign memberindex = 0 %}
+{% for member in current_associated_scientists reversed %}
+	{% assign memberindex = memberindex | plus: 1 %}
+	{% assign colindex = memberindex | modulo: 4 %}
+	{% if colindex == 1 %} <!-- opening of a new row -->
+	<div class="row">
+	{% endif %}
+	<div class="col-md-3 memberbox">
+		<div class="media">
+		                <a class="pull-left" href="{{ member.url }}">
+                                {% if member.image %}
+		    	        <img width=100 class="media-object" src="{{ member.image }}" style="float: left">
+                                {% else %}
+		    	        <img width=100 class="media-object" src="/assets/images/team/default-member.jpeg" style="float: left">
+				{% endif %}
+				</a>
+			 	<div class="media-body">
+				<div class="smallhead media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+				<p class="smallnote">{{ member.position }}</p>
+				</div>
+		</div>
+    </div>	  
+	{% if colindex == 0 %} <!-- closing a row -->
+	</div><div class="bigspacer"></div>
+	{% endif %}
+{% endfor %}
+{% if colindex != 0 %} <!-- close last open row -->
+</div><div class="bigspacer"></div>
+{% endif %}
+
+{% endif %}
+<!-- Had to use the following hack to concatenate and sort collection because
+     github pages Jekyll GEM does not support a working where_exp construct -->
+{% assign current_team = site.categories.team | where: "alum","false" %}
+{% assign current_interns = current_team | where: "category", "Intern" %}
+{% assign current_undergraduates = current_team | where: "category", "Undergraduate" %}
+{% assign currents = current_interns | concat: current_undergraduates %}
+{% assign current_undergraduates_and_interns = currents | sort: 'path' %}
+
+{% if current_undergraduates_and_interns.size > 0 %}
+
+<div class="bigspacer"></div>
+<div class="title subtle">Undergraduate Students and Interns</div>
+<div class="bigspacer"></div>
+{% assign memberindex = 0 %}
+{% for member in current_undergraduates_and_interns %}
+	{% assign memberindex = memberindex | plus: 1 %}
+	{% assign colindex = memberindex | modulo: 4 %}
+	{% if colindex == 1 %} <!-- opening of a new row -->
+	<div class="row">
+	{% endif %}
+	<div class="col-md-3 memberbox">
+		<div class="media">
+		                <a class="pull-left" href="{{ member.url }}">
+                                {% if member.image %}
+		    	        <img width=100 class="media-object" src="{{ member.image }}" style="float: left">
+                                {% else %}
+		    	        <img width=100 class="media-object" src="/assets/images/team/default-member.jpeg" style="float: left">
+				{% endif %}
+				</a>
+			 	<div class="media-body">
+				<div class="smallhead media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+				<p class="smallnote">{{ member.position }}</p>
+				</div>
+		</div>
+    </div>	  
+	{% if colindex == 0 %} <!-- closing a row -->
+	</div><div class="bigspacer"></div>
+	{% endif %}
+{% endfor %}
+{% if colindex != 0 %} <!-- close last open row -->
+</div><div class="bigspacer"></div>
+{% endif %}
+
+{% endif %}
+
 <div class="bigspacer"></div>
 
 <div class="row">
 	<div class="col-md-12">
-		<img class="team-photo" src="/assets/images/group_pic_3.jpg"/>
+	  <img class="team-photo" src="/assets/images/events/Fall_2021_farm_trip/team_photo_fall_2021.jpg"/>
 	</div>
 </div>
 
@@ -252,7 +336,7 @@ navorder: 2
 <div class="bigtitle">Alumni</div>
 <div class="bigspacer"></div>
 
-{% assign alumni = site.categories.team | where: "alum","true"%}
+{% assign alumni = site.categories.team | where: "alum","true" | sort: 'parting_date' %}
 {% assign memberindex = 0 %}
 {% for member in alumni reversed %}
 	{% assign memberindex = memberindex | plus: 1 %}

@@ -16,9 +16,11 @@ categories:
 
 <div class="row">
   <div class="col-md-12">
-	  <img width=250 class="pull-left" src="{{ ASSET_PATH }}/images/logo/GETZLAB_OFFICIAL_LOGO-color.svg" style="padding-top: 20px; padding-right: 5px;"></img>
-    <div class="bigtitle logobox">
-	The Getz Lab
+    <img width=250 class="pull-left" src="{{ ASSET_PATH }}/images/logo/GETZLAB_OFFICIAL_LOGO-color.svg" style="padding-top: 20px; padding-right: 5px;"></img>
+    <div align="right">
+      <div class="bigtitle logobox">
+        The Getz Lab
+      </div>
     </div>
   </div>  
 </div>
@@ -38,7 +40,7 @@ categories:
                 <img src="/assets/images/gaddygram.png"  width='1200px' alt="">
 	    </div>
 	    <div class="item">
-                <img src="/assets/images/events/Fall_2021_farm_trip/team_photo_fall_2021.jpg"  width='1200px' alt="">
+                <img src="/assets/images/events/Fall_2022_farm_trip/team_photo_fall_2022.jpg"  width='1200px' alt="">
 	    </div>
 	  </div>
 	  <!-- Carousel nav -->
@@ -89,6 +91,7 @@ categories:
 	    <li><img src="{{ ASSET_PATH }}/images/logo/BroadSquare.png" type="image/png"></li>
 	    <div class="spacer"></div>
             <li><a href={{ site.dept_broad_cancer_program.url }}>{{ site.dept_broad_cancer_program.name }}</a></li>
+            <li><a href={{ site.broad_lab.url }}>{{ site.broad_lab.name }}</a></li>
           </ul>
 	</div>
 	<div class="col-md-4">
@@ -116,16 +119,23 @@ categories:
                     {% assign team_citation_names = team_citation_names | concat: member_citation_names %}
                   {% endif %}
                 {% endfor %}
-                {% assign team_citation_names = team_citation_names | join: ", " %}
 		
 		<div class="bigspacer"></div>
 		<div class="feedbox pad-left">
                         {% for paper in site.categories.papers limit:6 %}
 
+                          {% assign pruned_team_citation_names = "" | split: "," %}
+			  {% for citation_name in team_citation_names %}
+                            {% unless paper.explicit_nonlab_citations contains citation_name %}
+                              {% assign pruned_team_citation_names = pruned_team_citation_names | push: citation_name %}
+                            {% endunless %}
+                          {% endfor %}
+			  {% assign pruned_team_citation_names = pruned_team_citation_names | join: ", " %} 
+
                           {% assign first_authors = paper.first_authors | split: ", " %}
                           {% assign revised_first_authors = "" | split: ", " %}
                           {% for first_author in first_authors %}
-                            {% if team_citation_names contains first_author %}        
+                            {% if pruned_team_citation_names contains first_author %}        
                               {% assign revised_first_author = "<b>" | append: first_author | append: "</b>" %}
                               {% assign revised_first_authors = revised_first_authors | push: revised_first_author %}
                             {% else %}
@@ -173,10 +183,19 @@ categories:
 	</div>
 	<div class="col-md-6">
 		<div class="head">
-			Recent <a class="off" href="/tweets/">Tweets
-			</a>
+			Recent <a href="https://twitter.com/getz_lab?ref_src=twsrc%5Etfw" data-show-count="false">Tweets</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
+		<div class="bigspacer"></div>
+<!-- <div><a href="https://twitter.com/getz_lab?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @getz_lab</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 		<a class="twitter-timeline" data-width="500" data-tweet-limit="3" href="https://twitter.com/getz_lab?ref_src=twsrc%5Etfw">Tweets by getz_lab</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+-->
+		<div>
+		  <div class="smallnote">Gad Getz Laboratory Retweeted</div>
+		  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">So excited to share our work with <a href="https://twitter.com/lane_andy?ref_src=twsrc%5Etfw">@lane_andy</a> on Y chromosome loss in cancer! <a href="https://t.co/6iG8xRfav8">https://t.co/6iG8xRfav8</a></p>&mdash; rheinbay_lab (@rheinbay_lab) <a href="https://twitter.com/rheinbay_lab/status/1674072938713354241?ref_src=twsrc%5Etfw">June 28, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		  <div class="smallnote">Gad Getz Laboratory Retweeted</div>
+		  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">💫DON’T MISS <a href="https://twitter.com/NatureCancer?ref_src=twsrc%5Etfw">@NatureCancer</a> “Inferring early genetic progression in cancers with unobtainable premalignant disease” by <a href="https://twitter.com/getz_lab?ref_src=twsrc%5Etfw">@getz_lab</a> <a href="https://twitter.com/hashtag/JamesRocco?src=hash&amp;ref_src=twsrc%5Etfw">#JamesRocco</a> <a href="https://twitter.com/OhioState?ref_src=twsrc%5Etfw">@OhioState</a> &amp; Co.<br><br>Check it our here👇<a href="https://t.co/ufpKNAmtsz">https://t.co/ufpKNAmtsz</a><a href="https://t.co/6WAPIEhuDE">https://t.co/6WAPIEhuDE</a></p>&mdash; Nature Cancer (@NatureCancer) <a href="https://twitter.com/NatureCancer/status/1650806885921046530?ref_src=twsrc%5Etfw">April 25, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">(1/3) Out now <a href="https://twitter.com/NatureCancer?ref_src=twsrc%5Etfw">@NatureCancer</a>! Our collab with Dr. James Rocco <a href="https://twitter.com/OhioState?ref_src=twsrc%5Etfw">@OhioState</a> shows that our PhylogicNDT suite of tools can infer early genetic progression and timing of mutations to identify early drivers in HPV- &amp; HPV+ head and neck cancers (<a href="https://twitter.com/hashtag/HNSCC?src=hash&amp;ref_src=twsrc%5Etfw">#HNSCC</a>) <a href="https://t.co/fSeWlU2f9f">https://t.co/fSeWlU2f9f</a> <a href="https://t.co/JLXkEkpT8R">pic.twitter.com/JLXkEkpT8R</a></p>&mdash; Gad Getz Laboratory (@getz_lab) <a href="https://twitter.com/getz_lab/status/1649409964027305986?ref_src=twsrc%5Etfw">April 21, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
 		<div class="bigspacer"></div>		
 	</div>
 </div>

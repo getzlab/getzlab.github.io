@@ -12,6 +12,9 @@ navorder: 3
 
 <div class="hugespacer"></div>
 <div class="bigtitle text-left">Selected Papers</div>
+<div>
+See <a href="https://pubmed.ncbi.nlm.nih.gov/?term=gad+getz&sort=date">PubMed</a> and <a href="https://scholar.google.com/citations?user=q-KRzawAAAAJ&hl=en&oi=ao">Google Scholar</a> for complete lists of Getz Lab papers.
+</div>
 <div class="bigspacer"></div>
 
 {% assign dir_year = "" %}
@@ -38,12 +41,19 @@ navorder: 3
     {% assign team_citation_names = team_citation_names | concat: member_citation_names %}
   {% endif %}
 {% endfor %}
-{% assign team_citation_names = team_citation_names | join: ", " %}
 
 <div class="bigspacer"></div>
 
 {% assign year = "" %}
 {% for paper in site.categories.papers %}
+
+    {% assign pruned_team_citation_names = "" | split: "," %}
+    {% for citation_name in team_citation_names %}
+      {% unless paper.explicit_nonlab_citations contains citation_name %}
+        {% assign pruned_team_citation_names = pruned_team_citation_names | push: citation_name %}
+      {% endunless %}
+    {% endfor %}
+
     {% if paper.year != year %}
       {% assign year = paper.year %}
       <div class="anchor"><a name={{ year }}></a></div>
@@ -55,23 +65,33 @@ navorder: 3
     {% assign shortened_authors = "" | split: ", " %}
   
     {% for first_author in first_authors %}
-      {% if team_citation_names contains first_author %}	      
+      {% if pruned_team_citation_names contains first_author %}	      
         {% assign revised_first_author = "<b>" | append: first_author | append: "</b>" %}
         {% assign shortened_authors = shortened_authors | push: revised_first_author %}
       {% else %}
         {% assign shortened_authors = shortened_authors | push: first_author %}
       {% endif %}
-    {% endfor %}	    
+    {% endfor %}
+
+      
     {% assign shortened_authors = shortened_authors | push: "[...]" %}
     {% for senior_author in senior_authors %}
-      {% if team_citation_names contains senior_author %}	      
+      {% if pruned_team_citation_names contains senior_author %}	      
         {% assign revised_senior_author = "<b>" | append: senior_author | append: "</b>" %}
         {% assign shortened_authors = shortened_authors | push: revised_senior_author %}
       {% else %}
         {% assign shortened_authors = shortened_authors | push: senior_author %}
       {% endif %}
-    {% endfor %}	    
-    {% assign  shortened_authors  = shortened_authors | join: ", " %}
+    {% endfor %}
+
+    {% comment %} The following code block addresses rare situations where first author is also senior author. {% endcomment %} 
+    {% assign shortened_authors = shortened_authors | uniq %}
+    {% assign last_element = shortened_authors | last %}
+    {% if last_element == "[...]" %}
+      {% assign size_minus_one = shortened_authors.size | minus: 1 %}
+      {% assign shortened_authors = shortened_authors | slice: 0, size_minus_one %}
+    {% endif %}
+    {% assign shortened_authors = shortened_authors | join: ", " %}	    
 
     <div class="row">
 

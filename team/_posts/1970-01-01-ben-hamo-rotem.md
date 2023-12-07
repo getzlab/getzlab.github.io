@@ -6,7 +6,8 @@ category: Postdoctoral Researcher
 position: Postdoctoral Associate
 github: 
 cv:
-linkedin:
+linkedin: rotem-ben-hamo-69b189a4
 alum: true
+parting_date: 2019-08-31
 ---
 

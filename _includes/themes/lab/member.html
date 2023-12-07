@@ -7,9 +7,9 @@
 	<div class="col-md-3">
 		<div class="media">
 			{% if member.image %}
-			<img class="pull-left pad-right big-member-photo" src="{{ member.image }}">
+			<img width=250 class="pull-left" src="{{ member.image }}">
 			{% else %}
-			<img width=400 class="pull-left pad-right big-member-photo" src="/assets/images/team/default-member.jpeg">
+			<img width=250 class="pull-left" src="/assets/images/team/default-member.jpeg">
 			{% endif %}
 		</div>
 	</div>
@@ -21,7 +21,7 @@
                         <div>
                         {% if member.alum == true %}
                         <div class="smallhead">
-                            Lab Alumus/Alumna
+                            Lab Alumnus/Alumna
 			</div>
 			<div class="smallhead">
 			Lab Position: {{ member.position }}
@@ -87,6 +87,7 @@
 		{% endif %}				   	
                 
 		{% if member.alum == false %}
+                {% unless member.mask_email == true %}
 		{% if member.email %}
 		{% assign emailarray = member.email | split: '@' %}
 		<div class="smallhead">
@@ -99,6 +100,7 @@
 		</div>		
 		<div class="bigspacer"></div>			
 		{% endif %}
+		{% endunless %}
 		{% endif %}
 		
 		{% if member.linkedin %}
@@ -107,16 +109,43 @@
 		</div>	
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
-			<i class="fa fa-linkedin-alt fa-fw"></i>
+			<i class="fa fa-linkedin fa-fw"></i>
 			<a class="off" href="https://linkedin.com/in/{{ member.linkedin }}">{{ member.linkedin }}</a>
+		</div>		
+		<div class="bigspacer"></div>			
+		{% endif %}
+
+		{% if member.other_institution %}
+		<div class="smallhead">
+			{{ member.other_institution }}
+		</div>	
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-institution fa-fw"></i>
+			<a class="off" href="{{ member.other_institution_user_page }}">{{ member.title }}</a>
+		</div>		
+		<div class="bigspacer"></div>			
+		{% endif %}
+		
+		
+		
+		
+		{% if member.disclosures %}
+		<div class="smallhead">
+			Disclosures
+		</div>	
+		<div class="pad-left note">
+		        <div class="smallspacer"></div>
+			<i class="fa fa-industry fa-fw"></i>
+			<a class="off" href="{{ member.disclosures }}" target="_blank">{{ member.title }} disclosures</a>
 		</div>		
 		<div class="bigspacer"></div>			
 		{% endif %}						
 	</div>
 	<div class="col-md-8">	
-		<div class="post">
-			{{ content }}
-		</div>
+	<div class="post">
+	  {{ content }}
+	</div>
 
 		
 
@@ -124,9 +153,11 @@
                 {% for paper in site.categories.papers %}
 		  {% assign  member_citation_names = member.citation_names | split: ', ' %}
                   {% for citation_name in member_citation_names %}
-                      {% if paper.authors contains citation_name %}
+                    {% if paper.authors contains citation_name %}
+	              {% unless paper.explicit_nonlab_citations contains citation_name %}
 		        {% assign papersq = true %}
-                      {% endif %}
+                      {% endunless %}
+	            {% endif %}
                   {% endfor %}
                 {% endfor %}
 
@@ -139,15 +170,28 @@
                       {% assign team_citation_names = team_citation_names | concat: team_member_citation_names %}
                     {% endif %}
                   {% endfor %}
-                  {% assign team_citation_names = team_citation_names | join: ", " %}
 
 		  <div class="bigspacer"></div>
 		  <div class="head">Selected Lab Papers</div>
 		  <div class="spacer"></div>
 		  <ul>
-		    {% for paper in site.categories.papers %}
+
+		  {% for paper in site.categories.papers %}
+
+                    {% assign pruned_team_citation_names = "" | split: "," %}
+
+                    {% for citation_name in team_citation_names %}
+		      {% unless paper.explicit_nonlab_citations contains citation_name %}
+                        {% assign pruned_team_citation_names = pruned_team_citation_names | push: citation_name %}
+		      {% endunless %}
+		    {% endfor %}
+                    {% assign pruned_team_citation_names = pruned_team_citation_names | join: ", " %}
+
 		      {% for citation_name in member_citation_names %}
 		        {% if paper.authors contains citation_name %}
+                          {% if paper.explicit_nonlab_citations contains citation_name %}
+		            {% continue %}
+		          {% endif %} 
                           <li>
  
  		            {% assign first_authors = paper.first_authors | split: ", " %}
@@ -155,7 +199,7 @@
 		            {% assign shortened_authors = "" | split: ", " %}
 
 		            {% for first_author in first_authors %}
-		              {% if team_citation_names contains first_author %}	      
+		              {% if pruned_team_citation_names contains first_author %}	      
 		                {% assign revised_first_author = "<b>" | append: first_author | append: "</b>" %}
 		                {% assign shortened_authors = shortened_authors | push: revised_first_author %}
 		              {% else %}
@@ -165,7 +209,7 @@
 		          
 			    {% assign shortened_authors = shortened_authors | push: "[...]" %}
 		            {% for senior_author in senior_authors %}
-		              {% if team_citation_names contains senior_author %}	      
+		              {% if pruned_team_citation_names contains senior_author %}	      
 		                {% assign revised_senior_author = "<b>" | append: senior_author | append: "</b>" %}
 		                {% assign shortened_authors = shortened_authors | push: revised_senior_author %}
 		              {% else %}

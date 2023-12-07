@@ -13,13 +13,16 @@ repository: getzlab/getzlab.github.io
 # so be sure to set them if your theme uses them.
 #
 title : Getz Lab
-tagline: Understand cancer cell evolutionand response to therapy in terms of genomics and epigenomics
+tagline: Understand cancer cell evolution and response to therapy in terms of genomics and epigenomics
 inst_broad:
   url: http://www.broadinstitute.org
   name: Broad
 dept_broad_cancer_program:
   url: https://www.broadinstitute.org/cancer
   name: Cancer Program
+broad_lab:
+  url: https://www.broadinstitute.org/labs/getz
+  name: Getz Lab @ Broad
 inst_mgh:
   url: https://www.massgeneral.org
   name: MGH
@@ -123,16 +126,9 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #
   analytics :
-    provider : google
+    provider : "google-gtag"
     google : 
-      tracking_id : 'UA-62008526-1'
-    getclicky :
-      site_id : 
-    mixpanel :
-      token : '_MIXPANEL_TOKEN_'
-    piwik :
-      baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
-      idsite : '1'                   # the id of the site on Piwik
+      measurement_id : "G-0KJ9JWWQJV"
 
   # Settings for sharing 
   # Sharing is for things like tweet, plusone, hn upvotes, like, linkedin
@@ -180,10 +176,43 @@ plugins_dir:
   
 plugins:
   - jekyll-twitter-plugin
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-tools:
-  - getzlab/deTiN
-  - getzlab/MutSig2CV
-  - getzlab/CLUMPS
-  - getzlab/rnaseqc
-  - getzlab/MSMuTect
+current_tools:
+  - name: DeTiN
+    repo: getzlab/deTiN
+  - name: MutSig2CV
+    repo:  getzlab/MutSig2CV
+  - name: CLUMPS 2
+    repo: getzlab/CLUMPS2
+  - name: RNA-SeQC 2
+    repo: getzlab/rnaseqc
+  - name: SignatureAnalyzer
+    repo: getzlab/SignatureAnalyzer
+  - name: MuTect 1
+    repo: getzlab/mutect
+  - name: MSMuTect 2
+    repo: getzlab/MSMuTect2
+  - name: ABSOLUTE
+    repo: getzlab/ABSOLUTE
+  - name: GISTIC 2
+    repo: broadinstitute/gistic2
+  - name: MSMutSig
+    repo: getzlab/MSMutSig
+  - name: PhylogicNDT
+    repo: broadinstitute/PhylogicNDT
+  - name: PHIAL
+    repo: vanallenlab/phial
+  - name: tensorQTL
+    repo: broadinstitute/tensorqtl
+  - name: AsymTools 2
+    repo: getzlab/AsymTools2
+
+retired_tools:
+  - name: CLUMPS
+    repo: getzlab/CLUMPS
+  - name: MSMuTect1
+    repo: getzlab/MSMuTect1
+
+  
