@@ -275,7 +275,7 @@ Following the YAML front matter you may provide any text you would like to appea
 ## portals
 Navigating to "Portals" (on the top navigation bar) displays the public portals the lab has contributed to.  Clicking on the portal's logo takes you to the portal website.
 
-These pages reside in the folder team/_posts.  The file's name must follow the following syntax:
+These pages reside in the folder portals/_posts.  The file's name must follow the following syntax:
 
 	<date portal released>-<portal name>.md
 	
