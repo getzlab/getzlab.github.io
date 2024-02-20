@@ -9,7 +9,8 @@ github:
 image: /assets/images/team/elizabeth_hopkins.jpeg
 linkedin: elizabethhopkins133
 cv:
-alum: false
+alum: true
+parting_date: 2024-01-31
 ---
 
 Elizabeth received a BSc in Biochemistry & Cell Biology from the University of California, San Diego as well as an MSc in Genetic Manipulation & Molecular Cell Biology from the University of Sussex where she studied the relationship between herpesviruses and stress granule formation in infected cells. In the future, she plans to pursue a doctorate in Cancer Biology.
