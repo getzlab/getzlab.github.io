@@ -9,7 +9,8 @@ github:
 image: /assets/images/team/Maisha_Chowdhury.jpg
 linkedin: 
 cv:
-alum: false
+alum: true
+parting_date: 2024-01-08
 ---
 
 Maisha joined the experimental team within the Getz Lab early 2022 as a Research Associate. Her efforts are in studying the way cancer resistance evolve, as well as developing a high-throughput platform for profiling them.
