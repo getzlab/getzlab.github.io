@@ -3,7 +3,7 @@ layout: member
 title: Brian Danysh
 citation_names: "Danysh BP"
 category: Operations and Administration
-position: Scientific Operations Manager
+position: Associate Director, Scientific Operations
 email: bdanysh@broadinstitute.org
 github: 
 image: /assets/images/team/Brian_Danysh.jpg
