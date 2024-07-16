@@ -7,7 +7,7 @@ authors: Roh W, Geffen Y, Cha H, Miller M, Anand S, Kim J, Heiman DI, Gainor JF,
 first_authors: Roh W, Geffen Y, Cha H
 senior_authors: Lee SH, Getz G
 corresponding_authors: Lee SH, Getz G
-fulltext: https://aacrjournals.org/cancerres/article/doi/10.1158/0008-5472.CAN-22-0432/708917/High-resolution-profiling-of-lung-adenocarcinoma
+fulltext: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9718502/
 doi: 10.1158/0008-5472.CAN-22-0432
 pmid: 36040373
 category: paper

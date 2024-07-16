@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Chidimma Nzerem
+citation_names: "Nzerem C"
 category: Associate
 position: Associate Computational Biologist II
 email: cnzerem@broadinstitute.org

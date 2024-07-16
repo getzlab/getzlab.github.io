@@ -7,7 +7,7 @@ authors: Haradhvala NJ, Leick MB, Maurer K, Gohil SH, Larson RC, Yao N, Gallaghe
 first_authors: Haradhvala NJ, Leick MB, Maurer K, Gohil SH
 senior_authors: Wu CJ, Getz G, Maus MV
 corresponding_authors: 
-fulltext: https://www.nature.com/articles/s41591-022-01959-0
+fulltext: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9509487/
 pdflink: https://www.nature.com/articles/s41591-022-01959-0.pdf
 doi: 10.1038/s41591-022-01959-0
 pmid: 36097221

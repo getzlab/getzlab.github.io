@@ -7,7 +7,7 @@ authors: Gao GF, Oh C, Saksena G, Deng D, Westlake LC, Hill BA, Reich M, Schumac
 first_authors: Gao GF, Oh C, Saksena G
 senior_authors: Meyerson M, Tabak B, Beroukhim R, Getz G
 corresponding_authors: Beroukhim R, Getz G
-fulltext: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac586/6678978
+fulltext: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9563697/
 doi: 10.1093/bioinformatics/btac586
 pmid: 36040167
 category: paper

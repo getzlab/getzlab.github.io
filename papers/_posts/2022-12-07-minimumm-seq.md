@@ -7,7 +7,7 @@ authors: Dutta AK, Alberge JB, Lightbody ED, Boehner CJ, Dunford A, Sklavenitis-
 first_authors: Dutta AK, Alberge JB
 senior_authors: Getz G, Ghobrial IM
 corresponding_authors: Getz G, Ghobrial IM
-fulltext: https://aacrjournals.org/cancerdiscovery/article/doi/10.1158/2159-8290.CD-22-0482/711479/MinimuMM-seq-Genome-sequencing-of-circulating
+fulltext: https://aacrjournals.org/cancerdiscovery/article/13/2/348/716291/MinimuMM-seq-Genome-Sequencing-of-Circulating
 doi: 10.1158/2159-8290.CD-22-0482
 pmid: 36477267
 category: paper

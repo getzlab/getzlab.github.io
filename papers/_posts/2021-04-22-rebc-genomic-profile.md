@@ -10,7 +10,7 @@ authors: Morton L, Karyadi D, Stewart C, Bogdanova T, Dawson E, Steinberg M, Dai
 first_authors: Morton L, Karyadi D, Stewart C
 senior_authors: Getz G, Chanock S
 corresponding_authors: Morton L, Chanock S
-fulltext:
+fulltext: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9022889/
 pdflink:
 doi: 10.1126/science.abg2538
 pmid: 33888599

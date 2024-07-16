@@ -9,5 +9,6 @@ github:
 image: /assets/images/team/Shankara_Anand.png
 cv:
 linkedin: shankara-anand
-alum: false
+alum: true
+parting_date: 2024-05-01
 ---

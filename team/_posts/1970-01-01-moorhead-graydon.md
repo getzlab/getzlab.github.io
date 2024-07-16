@@ -3,7 +3,7 @@ layout: member
 title: Graydon Moorhead
 citation_names: Moorhead G
 category: Associate
-position: Associate Computational Biologist
+position: Associate Computational Biologist II
 email: gmoorhea@broadinstitute.org
 github: 
 linkedin: graydon-moorhead

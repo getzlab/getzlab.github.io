@@ -7,7 +7,8 @@ email: cchu@broadinstitute.org
 github: cchu70
 linkedin: claudia-chu-aa5280145
 cv:
-alum: false
+alum: true
+parting_date: 2024-07-08
 image: /assets/images/team/Claudia_Chu.jpg
 ---
 

@@ -10,7 +10,8 @@ github: mvinyard
 linkedin: michaelvinyard
 image: /assets/images/team/Michael_Vinyard.jpeg
 cv: 
-alum: false
+alum: true
+parting_date: 2024-06-30
 ---
 
 Michael is a 6<sup>th</sup>-year PhD student in the Department of [Chemistry and Chemical Biology](https://chemistry.harvard.edu/) at Harvard University. His work focuses on computational methods development for studying the dynamics of biological processes observed using single-cell measurements. Michael is co-advised with [Luca Pinello](https://main.pinellolab.partners.org/) where he has contributed to work on setting best-practice standards for the analysis of scATAC-seq data ([*Genome Biol.*, **2019**](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1854-5)) as well as methods for multi-omic, clustering-free analysis ([*biorXiv*, **2021**](https://www.biorxiv.org/content/10.1101/2021.10.17.464750v1)). 

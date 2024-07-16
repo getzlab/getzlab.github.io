@@ -7,7 +7,7 @@ authors: Tsuji J, Li T, Grinshpun A, Coorens T, Russo D, Anderson L, Rees R, Nar
 first_authors: Tsuji J
 senior_authors: Getz G, Jeselsohn R
 corresponding_authors: Getz G, Jeselsohn R
-fulltext: https://aacrjournals.org/clincancerres/article/doi/10.1158/1078-0432.CCR-22-2305/710143/Clinical-Efficacy-and-Whole-Exome-Sequencing-of
+fulltext: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9722539/
 doi: 10.1158/1078-0432.CCR-22-2305
 pmid: 36215125
 category: paper
