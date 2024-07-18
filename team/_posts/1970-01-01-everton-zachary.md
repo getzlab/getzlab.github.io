@@ -3,7 +3,7 @@ layout: member
 title: Zachary Everton
 citation_names: "Everton Z"
 category: Intern
-position: Visiting Undergraduate Intern
+position: Research Intern
 email: evertonzachary@gmail.com
 github: https://github.com/evergreen700
 linkedin: https://www.linkedin.com/in/zachary-everton-41a468186/

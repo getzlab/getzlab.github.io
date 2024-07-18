@@ -3,7 +3,7 @@ layout: member
 title: Diego Garay
 citation_names: "Garay D"
 category: Intern
-position: Software Engineer Intern
+position: Software Engineering Intern
 email: dgaray@broadinstitute.org
 github: 
 linkedin: https://www.linkedin.com/in/diego-garay-b7b612255/
