@@ -7,7 +7,7 @@ authors: Sklavenitis-Pistofidis R, Aranha MP, Redd RA, Baginska J, Haradhvala NJ
 first_authors: Sklavenitis-Pistofidis R
 senior_authors: Getz G, Ghobrial IM
 corresponding_authors: Getz G, Ghobrial IM
-fulltext: https://www.sciencedirect.com/science/article/pii/S1535610822005086
+fulltext: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10019228/
 doi: 10.1016/j.ccell.2022.10.017
 pmid: 36379208
 category: paper

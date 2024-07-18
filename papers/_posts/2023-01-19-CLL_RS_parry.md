@@ -7,7 +7,7 @@ authors: Parry EM, Leshchiner I, Guièze R, Johnson C, Tausch E, Parikh SA, Lemv
 first_authors: Parry EM, Leshchiner I, Guièze R
 senior_authors: Stilgenbauer S, Getz G, Wu CJ
 corresponding_authors: Getz G, Wu CJ
-fulltext: https://www.nature.com/articles/s41591-022-02113-6
+fulltext: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10155825/
 doi: 10.1038/s41591-022-02113-6
 pmid: 36624313
 category: paper

@@ -5,7 +5,8 @@ citation_names: Connor Johnson, Johnson C
 category: Associate
 position: Associate Computational Biologist II
 email: connor@broadinstitute.org
-alum: false
+alum: true
+parting_date: 2024-06-02
 image: /assets/images/team/Connor_Johnson.jpg
 ---
 

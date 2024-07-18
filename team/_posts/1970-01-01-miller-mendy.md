@@ -3,7 +3,7 @@ layout: member
 title: Mendy Miller
 citation_names: Miller M, Miller ML
 category: Operations and Administration
-position: Senior Science Writer and Advisor
+position: Senior Scientific Writer and Advisor
 email: mendy@broadinstitute.org
 twitter: MendySciWriter
 github: mendy335

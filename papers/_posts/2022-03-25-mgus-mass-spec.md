@@ -10,7 +10,7 @@ authors: El-Khoury H, Lee DJ, Alberge JB, Redd R, Cea-Curry CJ, Perry J, Barr H,
 first_authors: El-Khoury H, Lee DJ, Alberge JB
 senior_authors: Getz G, Marinac CR, Ghobrial IM
 corresponding_authors: Ghobrial IM
-fulltext: https://www.thelancet.com/journals/lanhae/article/PIIS2352-3026(22)00069-2/fulltext
+fulltext: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9067621/
 pdflink: 
 doi: 10.1016/S2352-3026(22)00069-2
 pmid: 35344689

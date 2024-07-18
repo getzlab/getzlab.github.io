@@ -7,7 +7,7 @@ authors: Knisbacher BA, Lin Z, Hahn CK, Nadeu F, Duran-Ferrer M, Stevenson KE, T
 first_authors: Knisbacher BA, Lin Z, Hahn CK, Nadeu F, Duran-Ferrer M
 senior_authors: Martín-Subero JI, Puente XS, Stilgenbauer S, Wu CJ, Campo E, Getz G
 corresponding_authors: Wu CJ, Getz G
-fulltext: https://www.nature.com/articles/s41588-022-01140-w
+fulltext: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10084830/
 pdflink: https://www.nature.com/articles/s41588-022-01140-w.pdf
 doi: 10.1038/s41588-022-01140-w
 pmid: 35927489

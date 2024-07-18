@@ -2,7 +2,7 @@
 layout: member
 title: Sam Wiseman
 category: Staff Engineer
-position: Software Engineer
+position: Senior Software Engineer
 email: swiseman@broadinstitute.org
 github: SamWisedev
 image: /assets/images/team/Sam_Wiseman.jpeg

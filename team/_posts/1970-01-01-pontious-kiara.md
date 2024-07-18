@@ -3,7 +3,7 @@ layout: member
 title: Kiara Pontious
 citation_names: "Pontious K"
 category: Operations and Administration
-position: Scientific Project Manager
+position: Scientific Project Manager II
 email: kpontiou@broadinstitute.org
 github: 
 image: /assets/images/team/kiara_pontious.jpg

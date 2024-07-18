@@ -10,7 +10,7 @@ authors: "Maruvka YE, Mouw KW, Karlic R, Parasuraman P, Kamburov A, Polak P, Har
 first_authors: "Maruvka YE"
 senior_authors: "Getz G"
 corresponding_authors: "Getz G"
-fulltext:
+fulltext: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9123850/
 pdflink: 
 github:
 pmid: 28892075
