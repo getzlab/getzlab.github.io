@@ -3,7 +3,7 @@ layout: member
 title: Jean-Baptiste Alberge
 citation_names: Alberge JB
 category: Postdoctoral Researcher
-position: Postdoctoral Associate
+position: Postdoctoral Fellow
 email: jalberge@broadinstitute.org
 github: jalberge
 linkedin: jean-baptiste-alberge

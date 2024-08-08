@@ -3,7 +3,7 @@ layout: member
 title: Petar Stojanov
 citation_names: "Stojanov P"
 category: Postdoctoral Researcher
-position: Postdoctoral Associate
+position: Postdoctoral Fellow
 email: petar@broadinstitute.org
 github: 
 image: /assets/images/team/Petar_Stojanov.png

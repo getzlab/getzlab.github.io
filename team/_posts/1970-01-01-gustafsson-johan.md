@@ -3,7 +3,7 @@ layout: member
 title: Johan Gustafsson
 citation_names: Gustafsson J
 category: Postdoctoral Researcher
-position: Postdoctoral Associate
+position: Postdoctoral Fellow
 email: jgustafs@broadinstitute.org
 github: johan-gson
 image: /assets/images/team/Johan_Gustafsson.jpg
