@@ -7,7 +7,8 @@ position: Research Scientist II
 email: ygeffen@broadinstitute.org
 github: 
 cv:
-alum: false
+alum: true
+parting_date: 2024-08-05
 image: /assets/images/team/Yifat_Geffen.jpg
 ---
 

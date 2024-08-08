@@ -9,7 +9,8 @@ github:
 twitter: YRBadran
 image: /assets/images/team/Yousef_Badran.jpg
 cv:
-alum: false
+alum: true
+parting_date: 2024-08-01
 ---
 
 After completing medical school, Yousef pursued a post-doctoral fellowship in Immunology at the laboratory of Raif Geha at Boston Children’s Hospital studying primary immunodeficiency

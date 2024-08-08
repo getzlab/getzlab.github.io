@@ -3,7 +3,7 @@ layout: member
 title: Tim Coorens
 citation_names: Coorens T, Coorens THH
 category: Postdoctoral Researcher
-position: Postdoctoral Associate
+position: Postdoctoral Fellow
 email: tcoorens@broadinstitute.org
 github: timcoorens
 image: /assets/images/team/Tim_Coorens.jpg
