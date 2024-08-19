@@ -3,7 +3,7 @@ layout: member
 title: Sungjae Kim
 citation_names: Kim S
 category: Postdoctoral Researcher
-position: Postdoctoral Associate
+position: Postdoctoral Fellow
 email: kimsungj@broadinstitute.org
 github: kimsungjbroad
 image: /assets/images/team/sungjae_kim.jpg

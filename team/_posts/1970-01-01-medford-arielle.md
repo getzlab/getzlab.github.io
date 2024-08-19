@@ -3,7 +3,7 @@ layout: member
 title: Arielle Medford
 citation_names: Medford A
 category: Postdoctoral Researcher
-position: Postdoctoral Associate
+position: Postdoctoral Fellow
 email: medford@broadinstitute.org
 github: 
 image: /assets/images/team/Arielle_Medford.jpg
