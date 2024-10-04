@@ -283,7 +283,7 @@ navorder: 2
      github pages Jekyll GEM does not support a working where_exp construct -->
 {% assign current_team = site.categories.team | where: "alum","false" %}
 {% assign current_interns = current_team | where: "category", "Intern" %}
-{% assign current_undergraduates = current_team | where: "category", "Undergraduate" %}
+{% assign current_undergraduates = current_team | where: "category", "Undergraduate Student" %}
 {% assign currents = current_interns | concat: current_undergraduates %}
 {% assign current_undergraduates_and_interns = currents | sort: 'path' %}
 
