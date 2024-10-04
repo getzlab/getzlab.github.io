@@ -14,4 +14,4 @@ cv:
 alum: false
 ---
 
-Johanna is a visiting graduate student studying Nanobiology at TU Delft and Erasmus University in the Netherlands. In the Getz lab, she is working on clonal kinetics and transcriptomics analyses of Chronic lymphocytic leukemia patients in collaboration with the Cathy Wu Lab at the Dana-Farber Cancer Institute. Outside of the lab, she enjoys playing volleyball, sailing, skiing, and hanging out with my friends.
+Johanna is a visiting graduate student studying Nanobiology at TU Delft and Erasmus University in the Netherlands. In the Getz lab, she is working on clonal kinetics and transcriptomics analyses of Chronic lymphocytic leukemia patients in collaboration with the Cathy Wu Lab at the Dana-Farber Cancer Institute. Outside of the lab, she enjoys playing volleyball, sailing, skiing, and hanging out with her friends.
