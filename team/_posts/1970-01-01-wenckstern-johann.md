@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Johann Wenckstern
-citation_names: Wenckstern J
+citation_names: Wenckstern JC
 category: Intern
 position: Visiting Graduate Student
 email: wenckste@broadinstitute.org
