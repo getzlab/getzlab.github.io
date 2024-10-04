@@ -2,8 +2,8 @@
 layout: member
 title: Johann Wenckstern
 citation_names: Wenckstern J
-category: Graduate Student
-position: PhD Student, Swiss Federal Institute of Technology Lausanne (EPFL) - Computer Science
+category: Intern
+position: Visiting Graduate Student
 email: wenckste@broadinstitute.org
 twitter: 
 scholar: 

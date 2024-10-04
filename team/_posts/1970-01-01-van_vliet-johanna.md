@@ -2,8 +2,8 @@
 layout: member
 title: Johanna van Vliet
 citation_names: van Vliet J
-category: Graduate Student
-position: MA Student, Delft University of Technology (TU Delft) - Nanobiology
+category: Intern
+position: Visiting Graduate Student
 email: jvanvlie@broadinstitute.org
 twitter: 
 scholar: 
