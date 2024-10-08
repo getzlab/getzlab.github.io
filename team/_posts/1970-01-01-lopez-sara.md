@@ -2,8 +2,8 @@
 layout: member
 title: Sara López-Tamargo
 citation_names: López-Tamargo S
-category: Visiting Graduate Student
-position: PhD Student, Genomic and Molecular Approaches to Biomedicine, University of Oviedo
+category: Graduate Student
+position: PhD Student, University of Oviedo - Genomic and Molecular Approaches to Biomedicine
 email: slpez@broadinstitute.org
 twitter: 
 scholar: 
