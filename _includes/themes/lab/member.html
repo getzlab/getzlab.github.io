@@ -84,7 +84,18 @@
 			<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}">{{ member.title }}</a>
 		</div>		
 		<div class="bigspacer"></div>	
-		{% endif %}				   	
+		{% endif %}
+        {% if member.orcid %}
+		<div class="smallhead">
+			ORCID
+		</div>	
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-book fa-fw"></i>
+			<a class="off" href="http://orcid.org/my-orcid?orcid={{ member.orcid }}">{{ member.title }}</a>
+		</div>		
+		<div class="bigspacer"></div>	
+		{% endif %}					   	
                 
 		{% if member.alum == false %}
                 {% unless member.mask_email == true %}

@@ -9,6 +9,7 @@ github:
 image: /assets/images/team/Brian_Danysh.jpg
 cv:
 scholar: tG4ADFkAAAAJ
+orcid: 0000-0001-6839-6337
 linkedin: brian-danysh
 alum: false
 ---

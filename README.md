@@ -255,6 +255,7 @@ The yaml front matter in a lab member page should contain the following:
 	[image: /assets/images/team/<image png filename>]
 	[cv: /assets/pdfs/<cv pdf filename>]
 	[scholar: <google scholar id>]
+    [orcid: <orcid id>]
 	[disclosures: <url to lab member's disclosures statement>]
 	alum: false | true
 	[parting_date: <date left lab, YYYY-MM-DD]
