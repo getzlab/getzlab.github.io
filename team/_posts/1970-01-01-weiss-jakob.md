@@ -10,7 +10,8 @@ linkedin: jakob-h-weiss
 cv: 
 image: /assets/images/team/jakob_weiss.jpg
 scholar: iGacRfkAAAAJ
-alum: false
+alum: true
+parting_date: 2024-08-01
 ---
 
 Jakob joined the lab in May of 2023 as a Computational Associate. Currently, He works on elucidating mechanisms of drug resistance in HER2+ breast cancer and glioblastoma.
