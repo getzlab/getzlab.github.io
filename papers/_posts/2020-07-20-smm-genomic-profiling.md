@@ -7,7 +7,7 @@ volume: 38
 issue: 21
 pages: 2380-2389
 authors: "Bustoros M, Sklavenitis-Pistofidis R, Park J, Redd R, Zhitomirsky B, Dunford AJ, Salem K, Tai YT, Anand S, Mouhieddine TH, Chavda SJ, Boehner C, Elagina L, Neuse CJ, Cha J, Rahmat M, Taylor-Weiner A, Van Allen E, Kumar S, Kastritis E, Leshchiner I, Morgan EA, Laubach J, Casneuf T, Richardson P, Munshi NC, Anderson KC, Trippa L, Aguet F, Stewart C, Dimopoulos MA, Yong K, Bergsagel PL, Manier S, Getz G, Ghobrial IM"
-first_authors: "Busteros M, Sklavenitis-Pistofidis R"
+first_authors: "Bustoros M, Sklavenitis-Pistofidis R"
 senior_authors: "Manier S, Getz G, Ghobrial IM"
 corresponding_authors: "Sklavenitis-Pistofidis R, Ghobrial IM"
 fulltext: https://ascopubs.org/doi/full/10.1200/JCO.20.00437

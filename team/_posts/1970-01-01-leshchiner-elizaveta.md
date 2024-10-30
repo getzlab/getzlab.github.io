@@ -10,7 +10,8 @@ image: /assets/images/team/Liza_Leshchiner.jpeg
 cv:
 scholar: e6YhPd0AAAAJ
 linkedin: liza-leshchiner-551a1915
-alum: false
+alum: true
+parting_date: 2024-09-01
 ---
 
 Liza is a Group Leader in the Getz Lab, working on experimental and computational biology. Liza’s research interests are in the area of cancer biology and therapeutic science, with a focus on novel pathways and novel therapeutic strategies. Liza has a strong expertise in therapeutic proof-of-concept compound development for novel targets as a way to translate genomic and biologic findings, expand the “druggable” genome and challenge common therapeutic limitations. 

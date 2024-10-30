@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Claudia Chu
+citation_names: Chu C
 category: Associate
 position: Associate Computational Biologist II
 email: cchu@broadinstitute.org
