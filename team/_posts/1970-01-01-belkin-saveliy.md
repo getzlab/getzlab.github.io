@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Saveliy Belkin
+citation_names: Belkin S
 category: Staff Engineer
 position: Senior Software Engineer
 email: sbelkin@broadinstitute.org

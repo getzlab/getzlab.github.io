@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Sam Wiseman
+citation_names: Wiseman S
 category: Staff Engineer
 position: Senior Software Engineer
 email: swiseman@broadinstitute.org
