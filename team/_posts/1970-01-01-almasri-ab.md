@@ -11,8 +11,6 @@ twitter:
 scholar: 
 image: /assets/images/team/almasri-ab.png
 cv:
-alum: true
-parting_date: 2024-08-31
 ---
 
 A Computer-Science student with software engineering aspirations, A.b became a Broadie in summer of 2024 joining the Getz lab as a full-stack engineering intern. A.b worked side by side with the talented software engineering team on the Portal Project implementing features such as the "Analytical Statistics Dashboard" and others. 

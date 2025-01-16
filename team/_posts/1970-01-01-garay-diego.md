@@ -11,8 +11,6 @@ twitter:
 scholar: 
 image: /assets/images/team/garay-diego.png
 cv:
-alum: true
-parting_date: 2024-08-31
 ---
 
 Diego joined the Getz lab in the summer of 2024 as a summer intern. He is a sophomore at Amherst College studying mathematics. He is currently working on the project portal, such as adding the ability to analyze sequenced data using wolF through the portal. 
