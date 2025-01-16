@@ -11,6 +11,8 @@ github: saraltamargo
 linkedin: sara-lópez-tamargo-a1b37b160
 image: /assets/images/team/sara_lopez.jpg
 cv:
+alum: true
+parting_date: 2024-11-31
 ---
 
 Sara is a fifth-year PhD student in Genomic and Molecular Approaches to Biomedicine at the University of Oviedo, under the supervision of Dr. Xosé Antón Suárez Puente. Her research focuses on understanding how splicing deregulation affects hematological tumors, with a particular emphasis on how these changes reshape the tumor microenvironment. To achieve this, Sara employs various NGS technologies and quantitative methods to analyze both experimental animal models and clinical data, with a special focus on single-cell technologies.
