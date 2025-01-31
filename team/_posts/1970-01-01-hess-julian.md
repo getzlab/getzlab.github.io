@@ -2,8 +2,8 @@
 layout: member
 title: Julian Hess
 citation_names: Hess JM
-category: Staff Scientist
-position: Computational Biologist II
+category: Associated Scientist
+position: Principal Computational Biologist at Predicta Biosciences
 email: jhess@broadinstitute.org
 scholar: sMZ5tQwAAAAJ
 github: julianhess

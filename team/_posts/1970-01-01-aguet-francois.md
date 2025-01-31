@@ -3,7 +3,7 @@ layout: member
 title: Francois Aguet
 citation_names: "Aguet F"
 category: Associated Scientist
-position: Principal Investigator at Illumina Artificial Intelligence Lab
+position: Head of Computational Biology at Predicta Biosciences
 email: francois@broadinstitute.org
 github: francois-a
 image: /assets/images/team/Francois_Aguet.jpeg

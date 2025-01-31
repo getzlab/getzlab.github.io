@@ -3,7 +3,7 @@ layout: member
 title: Pınar Özden Eser
 citation_names: "Eser, PO"
 category: Staff Scientist
-position: Research Scientist
+position: Research Scientist II
 email: peser@broadinstitute.org
 github: poe4
 scholar: qHlDhL8AAAAJ
