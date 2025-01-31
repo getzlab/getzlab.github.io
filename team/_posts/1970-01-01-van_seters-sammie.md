@@ -3,7 +3,7 @@ layout: member
 title: Samantha Van Seters
 citation_names: "Van Seters S"
 category: Staff Engineer
-position: Associate Software Engineer
+position: Software Engineer
 email: svansete@broadinstitute.org
 github: 
 image: /assets/images/team/Sammie_Van_Seters.jpg
