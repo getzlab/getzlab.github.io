@@ -3,7 +3,7 @@ layout: member
 title: Nick Haradhvala
 citation_names: "Haradhvala NJ" 
 category: Staff Scientist
-position: Group Leader
+position: Group Leader, Computational Biology
 email: njharlen@broadinstitute.org
 scholar: 01rWX2oAAAAJ&hl
 github: 
@@ -13,7 +13,7 @@ linkedin: nicholas-haradhvala-28091a24
 alum: false
 ---
 
-Nick is a Computational Biologist at the [Broad Institute] in the Getz Lab. He joined the Getz Lab in 2014. He received his PhD in [Biophysics] from Harvard University in 2022. 
+Nick is a Group Leader of Computational Biology at the [Broad Institute] in the Getz Lab. He joined the Getz Lab in 2014. He received his PhD in [Biophysics] from Harvard University in 2022. 
 
 Nick's current research focuses on the use of single-cell sequencing technologies to study the role of the immune system in cancer. He has studied alterations to the immune micronenvironment in early multiple myeloma precursors, and the failure mechanisms of chimeric antigen receptor (CAR)-T cell therapy in high-grade lymphomas.
 
