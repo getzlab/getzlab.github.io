@@ -3,7 +3,7 @@ layout: member
 title: Nick Haradhvala
 citation_names: "Haradhvala NJ" 
 category: Staff Scientist
-position: Group Leader, Comp Bio
+position: Group Leader, Computational Biology
 email: njharlen@broadinstitute.org
 scholar: 01rWX2oAAAAJ&hl
 github: 
