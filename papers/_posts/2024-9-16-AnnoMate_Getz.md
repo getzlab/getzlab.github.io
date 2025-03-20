@@ -9,7 +9,7 @@ senior_authors: Getz G
 corresponding_authors: Getz G
 fulltext: https://www.cell.com/patterns/fulltext/S2666-3899(24)00210-1
 doi: 10.1016/j.patter.2024.101060
-pmid: 
+pmid: 39569208
 category: paper
 ---
 
