@@ -3,7 +3,7 @@ layout: member
 title: Arvind Ravi
 citation_names: Ravi A
 category: Postdoctoral Researcher
-position: Postdoctoral Scholar, Instructor
+position: Instructor in Medicine
 email: aravi@broadinstitute.org
 github: 
 image: /assets/images/team/Arvind_Ravi.png

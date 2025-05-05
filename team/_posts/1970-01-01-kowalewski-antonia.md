@@ -8,7 +8,7 @@ email: akowalew@broadinstitute.org
 twitter:
 scholar: https://scholar.google.com/citations?user=SOX5Kw8AAAAJ&hl=en
 github:
-linkedin: https://www.linkedin.com/in/antoniakowalewski/
+linkedin: antoniakowalewski
 image: /assets/images/team/Antonia-Kowalewski.jpg
 cv: 
 alum: false
