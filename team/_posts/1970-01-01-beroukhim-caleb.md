@@ -11,8 +11,8 @@ twitter:
 scholar: 
 image: /assets/images/team/beroukhim_caleb.png
 cv:
-alum: false
-parting_date: 
+alum: true
+parting_date: 2025-08-31
 ---
 
 Caleb joined the Getz lab during the summer of 2024 as an intern. He is currently working on single cell RNA sequencing of bone marrow hematopoietic cells. Caleb is a rising sophomore at Phillips Academy Andover and takes collegiate level math and physics courses. In the future, he would like to continue his study of single cell RNA sequencing. 

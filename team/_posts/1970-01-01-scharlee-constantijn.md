@@ -2,7 +2,7 @@
 layout: member
 title: Constantijn Scharlee
 citation_names: Scharlee C
-category: Intern
+category: Graduate Student
 position: Visiting Graduate Student
 email: cscharle@broadinstitute.org
 twitter: CScharlee28

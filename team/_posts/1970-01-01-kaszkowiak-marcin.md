@@ -2,7 +2,7 @@
 layout: member
 title: Marcin Kaszkowiak
 citation_names: "Kaszkowiak M"
-category: Intern
+category: Graduate Student
 position: Visiting Graduate Student
 email: dmkaszkow@broadinstitute.org
 github: https://github.com/mgkaszkowiak/
