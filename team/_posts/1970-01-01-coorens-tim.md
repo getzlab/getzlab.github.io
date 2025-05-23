@@ -2,8 +2,8 @@
 layout: member
 title: Tim Coorens
 citation_names: Coorens T, Coorens THH
-category: Postdoctoral Researcher
-position: Postdoctoral Fellow
+category: Associated Scientist
+position: Research Group Leader, EMBL's European Bioinformatics Institute (EMBL-EBI), Hinxton, UK
 email: tcoorens@broadinstitute.org
 github: timcoorens
 image: /assets/images/team/Tim_Coorens.jpg

@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Xavi Loinaz
+citation_names: Loinaz X
 category: Associate
 position: Associate Computational Biologist II
 email: xloinaz@broadinstitute.org
