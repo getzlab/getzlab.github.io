@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Oliver Priebe
+citation_names: Priebe O
 category: Associate
 position: Associate Computational Biologist II
 email: olivercpriebe@gmail.com

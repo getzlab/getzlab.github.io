@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Negin Karisani
+citation_names: Karisani N
 category: Postdoctoral Researcher
 position: Postdoctoral Associate
 email: nkarisan@broadinstitute.org

@@ -3,7 +3,7 @@ layout: member
 title: Nicolas Stransky
 citation_names: "Stransky N"
 category: Staff Scientist
-position: Computational Biologist
+position: Computational Biologist (co-mentored by Levi Garraway)
 email: 
 github: 
 image: 
