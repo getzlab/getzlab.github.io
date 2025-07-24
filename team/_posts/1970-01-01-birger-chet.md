@@ -10,7 +10,8 @@ github: cbirger
 image: /assets/images/team/Chet_Birger.jpg
 scholar: K9-iAPoAAAAJ
 cv:
-alum: false
+alum: true
+parting_date: 2023-12-31
 ---
 
 Chet was an Associate Director at the [Broad Institute] in the Getz Lab.  He joined the Getz Lab in 2015.  In December 2021 he retired but continues to work for the lab, part-time, on specific projects.

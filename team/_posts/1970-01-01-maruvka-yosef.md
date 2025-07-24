@@ -9,6 +9,7 @@ github:
 image: /assets/images/team/Yosi_Maruvka.png
 cv:
 linkedin: yosef-maruvka-a9071b21
-alum: false
+alum: true
+parting_date: 2019-12-31
 ---
 

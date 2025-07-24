@@ -3,7 +3,7 @@ layout: member
 title: Kavya Prasad
 citation_names: "Prasad K"
 category: Associate
-position: Associate Computational Biologist II
+position: Senior Associate Computational Biologist
 email: kprasad@broadinstitute.org
 github: 
 twitter: 

@@ -3,7 +3,7 @@ layout: member
 title: David Merrell
 citation_names: "Merrell C" 
 category: Staff Scientist
-position: Computational Biologist
+position: Computational Biologist II
 email: merrell@broadinstitute.org
 scholar: YXS1tFIAAAAJ
 github: dpmerrell

@@ -3,7 +3,7 @@ layout: member
 title: David Lehotzky
 citation_names: "Lehitzky D" 
 category: Staff Scientist
-position: Computational Biologist
+position: Computational Biologist II
 email: dlehotzk@broadinstitute.org
 scholar: LMx2OAUAAAAJ
 github: Lehotzky

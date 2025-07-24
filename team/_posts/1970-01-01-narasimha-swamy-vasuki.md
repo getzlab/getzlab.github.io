@@ -3,7 +3,7 @@ layout: member
 title: Vasuki Narasimha Swamy
 citation_names: "Swamy VN" 
 category: Staff Scientist
-position: Computational Biologist
+position: Computational Biologist II
 email: vasuki@broadinstitute.org
 scholar: EmQmJS8AAAAJ
 github: 
