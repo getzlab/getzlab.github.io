@@ -10,8 +10,8 @@ github:
 cv:
 scholar: 9Kz5vKYAAAAJ
 linkedin: rebecca-peyser-7a270753
-
-alum: false
+alum: true
+parting_date: 2025-05-31
 ---
 
 Rebecca is a 3rd year PhD student in EECS at MIT, co-advised by Gad Getz at the Broad Institute and David Sontag in MIT CSAIL.

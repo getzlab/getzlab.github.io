@@ -3,7 +3,7 @@ layout: member
 title: Junko Tsuji
 citation_names: "Tsuji J"
 category: Staff Scientist
-position: Computational Biologist II
+position: Senior Computational Biologist
 email: jtsuji@broadinstitute.org
 github: jnktsj
 scholar: sqg49l8AAAAJ

@@ -3,7 +3,7 @@ layout: member
 title: Shaw Kagawa
 citation_names: "Kagawa S"
 category: Associate
-position: Associate Computational Biologist I
+position: Associate Computational Biologist II
 email: kagawa@broadinstitute.org
 github: skagawa2
 linkedin: shaw-kagawa
