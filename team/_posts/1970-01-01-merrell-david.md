@@ -10,7 +10,8 @@ github: dpmerrell
 image: /assets/images/team/david_merrell.jpg
 cv:
 linkedin: david-merrell-22879a39
-alum: false
+alum: true
+parting_date: 2025-09-05
 ---
 
 David joined the Getz Lab as a Computational Scientist in July 2023, shortly after completing his PhD in Computer Science at the University of Wisconsin–Madison. His dissertation research focused on building probabilistic models and inference algorithms to extract insights from omics data. He enjoys tackling open-ended problems from a computational and mathematical perspective. 
