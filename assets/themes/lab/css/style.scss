@@ -184,29 +184,25 @@ strong {
 }
 
 .navbar-nav .accent {
-	background-color: #336EDA;
-	color: white;
+	background-color: #336EDA !important;
+	color: white !important;
 	border-radius: 6px;
-	padding-top: 11px;
-	padding-bottom: 11px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 11px 15px;
+	margin: 4px 0;
+	display: inline-block;
+	transition: background-color 0.2s ease;
 	b {
-		color: white;
+		color: white !important;
 		background-color: inherit;
 	}
 }
 
-.navbar-nav .accent :hover {
-	background-color: #727272;
-	color: white;
-	border-radius: 6px;
-	padding-top: 11px;
-	padding-bottom: 11px;
-	padding-left: 15px;
-	padding-right: 15px;
+.navbar-nav .accent:hover {
+	background-color: #2856c4 !important;
+	color: white !important;
+	text-decoration: none;
 	b {
-		color: white;
+		color: white !important;
 		background-color: inherit;
 	}
 }
