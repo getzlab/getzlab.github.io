@@ -10,7 +10,8 @@ linkedin: graydon-moorhead
 cv: 
 image: /assets/images/team/graydon_moorhead.png
 scholar: T5SsO-sAAAAJ
-alum: false
+alum: true
+parting_date: 2025-08-31
 ---
 
 Graydon graduated from Harvard College, majoring in Applied Mathematics with a focus in the Biological Sciences and a minor in Germanic Studies. He wrote his undergraduate thesis in the Michor Lab at the Dana Farber Cancer Institute, creating a spatial model of lung cancer that focussed on radiation’s effects on cellular motility. He joined the Getz lab in October of 2022 as an associate computational biologist, and is currently working on a project to uncover mechanisms of resistance to immunotherapy treatment in head and neck cancer.

@@ -7,7 +7,8 @@ email: agorelic@broadinstitute.org
 github: 
 image: /assets/images/team/Alex_Gorelick.jpg
 cv:
-alum: false
+alum: true
+parting_date: 2025-01-31
 ---
 
 Alex is a postdoctoral fellow in the Getz Lab and the laboratory of Dr. Kamila Naxerova (Massachusetts General Hospital, Harvard Medical School). His research focuses on applying phylogenetic and statistical analyses to cancer genomes to understand the molecular underpinnings of cancer evolution and metastasis. 

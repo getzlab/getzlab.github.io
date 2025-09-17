@@ -2,8 +2,8 @@
 layout: member
 title: Jean-Baptiste Alberge
 citation_names: Alberge JB
-category: Postdoctoral Researcher
-position: Instructor in Medicine
+category: Associated Scientist
+position: Group Leader, Gustave Roussy, France 
 email: jalberge@broadinstitute.org
 github: jalberge
 linkedin: jean-baptiste-alberge
@@ -11,6 +11,7 @@ image: /assets/images/team/JB-Alberge.jpg
 twitter: JbAlberge
 cv:
 alum: false
+
 ---
 
 Jean-Baptiste is a postdoctoral fellow in the Getz lab and in the [Ghobrial lab](https://ghobriallab.dana-farber.org/)

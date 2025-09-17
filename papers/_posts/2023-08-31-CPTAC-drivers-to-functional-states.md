@@ -1,6 +1,6 @@
 ---
 layout: paper
-title:  "Pan-cancer proteogenomocs connects oncogenic drivers to functional states"
+title:  "Pan-cancer proteogenomics connects oncogenic drivers to functional states"
 year: "2023"
 journal: Cell
 authors: Li Y, Porta-Pardo E, Tokheim C, Bailey MH, Yaron TM, Stathias V, Geffen Y, Imbach KJ, Cao S, Anand S, Akiyama Y, Liu W, Wyczalkowski MA, Song Y, Storrs EP, Wendl MC, Zhang W, Sibai M, Ruiz-Serra V, Liang WW, Terekhanova NV, Rodrigues FM, Clauser KR, Heiman DI, Zhang Q, Aguet F, Calinawan AP, Dhanasekaran SM, Birger C, Satpathy S, Zhou DC, Wang LB, Baral J, Johnson JL, Huntsman EM, Pugliese P, Colaprico A, Iavarone A, Chheda MG, Ricketts CJ, Fenyö D, Payne SH, Rodriguez H, Robles AI, Gillette MA, Kumar-Sinha C, Lazar AJ, Cantley LC, Getz G, Ding L; Clinical Proteomic Tumor Analysis Consortium
