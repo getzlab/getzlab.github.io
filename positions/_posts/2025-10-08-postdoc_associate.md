@@ -6,8 +6,8 @@ handle: postdoc
 image: 
 category: position
 institution: Broad
-postingurl: https://broadinstitute.wd1.myworkdayjobs.com/en-US/broad_institute/job/Cambridge-MA/Postdoctoral-Scholar---Getz-Lab_1272-2
+postingurl: https://broadinstitute.avature.net/en_US/careers/JobDetail/Postdoctoral-Associate-Getz-Lab/20757
 tags: []
-active: false
+active: true
 ---
 {% include JB/setup %}

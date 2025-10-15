@@ -7,7 +7,7 @@ navorder: 6
 ---
 {% include JB/setup %}
 <div class="hugespacer"></div>
-<div class="head"><big>Join the Getz Lab...we are hiring!</big></div>
+<div class="head"><big>We are hiring!</big></div>
 <div class="bigspacer"></div>
 <div class="post">Come join us in the Getz Lab (Broad Institute / MGH Cancer Center) to help shape the future of cancer research at the cutting edge of computaional genomics and cancer biology.  Current open positions:</div>
 
@@ -17,7 +17,7 @@ navorder: 6
     <div class="head">Broad</div>
     {% for job in site.categories.positions %}    		     
     <div class="row">
-            {% if job.institution == "Broad" %}
+            {% if job.institution == "Broad" and job.active != false %}
 	    <div class="bigspacer"></div>
 	      <div class="position">
 			<div class="smallhead">
@@ -31,11 +31,20 @@ navorder: 6
     </div>
     {% endfor %}
   </div>
+  
+  {% assign mgh_jobs = site.categories.positions | where: "institution", "MGH" %}
+  {% assign active_mgh_jobs = "" | split: ',' %}
+  {% for job in mgh_jobs %}
+    {% if job.active != false %}
+      {% assign active_mgh_jobs = active_mgh_jobs | push: job %}
+    {% endif %}
+  {% endfor %}
+  {% if active_mgh_jobs.size > 0 %}
   <div class="col-md-6">
     <div class="head">MGH</div>
     {% for job in site.categories.positions %}    		     
     <div class="row">
-            {% if job.institution == "MGH" %}
+            {% if job.institution == "MGH" and job.active != false %}
 	    <div class="bigspacer"></div>
 	      <div class="position">
 			<div class="smallhead">
@@ -49,19 +58,5 @@ navorder: 6
     </div>
     {% endfor %}
   </div>
+  {% endif %}
 </div>
-
-<div class="bigspacer"></div>
-<div class="bigspacer"></div>
-
-<div class="post">
-  We are always seeking highly qualified people for the following roles:  
-  <div class="bigspacer"></div>
-  <ul class="tag_box" style="list-style-type:none;padding: 10">
-    <li>Computational Biologist</li>
-    <li>Software Engineer</li>
-    <li>Research and Computational Associate</li>
-    <li>Postdoctoral Fellow</li>
-  </ul>
-</div>
-

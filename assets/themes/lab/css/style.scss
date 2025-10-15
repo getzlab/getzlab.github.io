@@ -183,6 +183,30 @@ strong {
 	}
 }
 
+.navbar-nav .accent {
+	background-color: #336EDA !important;
+	color: white !important;
+	border-radius: 6px;
+	padding: 11px 15px;
+	margin: 4px 0;
+	display: inline-block;
+	transition: background-color 0.2s ease;
+	b {
+		color: white !important;
+		background-color: inherit;
+	}
+}
+
+.navbar-nav .accent:hover {
+	background-color: #2856c4 !important;
+	color: white !important;
+	text-decoration: none;
+	b {
+		color: white !important;
+		background-color: inherit;
+	}
+}
+
 .dropdown-menu {
 	font-size: 25px;
 	font-weight: $font-weight-base;
