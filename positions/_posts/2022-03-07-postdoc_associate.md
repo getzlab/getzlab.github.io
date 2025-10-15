@@ -8,5 +8,7 @@ category: position
 institution: Broad
 postingurl: https://broadinstitute.wd1.myworkdayjobs.com/en-US/broad_institute/job/Cambridge-MA/Postdoctoral-Scholar---Getz-Lab_1272-2
 tags: []
+active: false
+active: false
 ---
 {% include JB/setup %}
