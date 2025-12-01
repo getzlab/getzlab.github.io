@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: "Distinct cellular dynamics associated with response to CAR-T therapy for refractory B-cell lymphoma"
+title: "Single-cell dynamics of breakthrough toxicities after anakinra prophylaxis for axicabtagene ciloleucel in lymphoma"
 year: "2025"
 journal: Blood Advances
 authors: Frigault MJ, Yao N, Berger TR, Wehrli M, Gallagher KME, Horick N, Graham CE, Jacobson CA, Chen YB, Leick MB, DeFilipp Z, El-Jawahri AR, Johnson PC, Dolaher M, Katsis K, Kim AI, Crombie J, Merryman RW, Cook D, Trailor M, Cho H, Jeffrey 3rd R, Shen R, Filosto S, Nater J, Getz G, Haradhvala NJ, Maus MV
