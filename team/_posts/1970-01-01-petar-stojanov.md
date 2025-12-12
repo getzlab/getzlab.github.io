@@ -10,8 +10,9 @@ image: /assets/images/team/Petar_Stojanov.png
 cv:
 scholar: RydEtZkAAAAJ&hl
 linkedin: 
-alum: false
+alum: true
 linkedin: 
+parting_date: 2025-12-05
 ---
 
 Petar is a postdoctoral researcher at the Broad Institute of MIT and Harvard, where he is supervised by Prof. Gad Getz. He received his PhD in Computer Science at Carnegie Mellon University, where he was fortunate to be advised by Jaime Carbonell and Kun Zhang. Prior to that, he was an associate computational biologist at the Getz Lab.

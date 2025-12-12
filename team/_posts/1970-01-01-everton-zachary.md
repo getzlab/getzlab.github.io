@@ -11,8 +11,8 @@ twitter:
 scholar: 
 image: /assets/images/team/everton-zachary.png
 cv:
-alum: false
-parting_date: 
+alum: true
+parting_date: 2025-08-31
 ---
 
 Zachary joined the Getz Lab in May of 2024. He is currently working on a pan-cancer whole-genome project investigating noncoding somatic driver mutations.

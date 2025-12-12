@@ -9,7 +9,8 @@ twitter: RomanosSP
 github: 
 image: /assets/images/team/Ramanos_Sklavenitis-Pistofidis.png
 cv:
-alum: false
+alum: true
+parting_date: 2025-09-30
 ---
 
 Romanos is a physician-scientist who specializes in experimental and computational immunooncology research in plasma cell malignancies. He received his MD with honors from the Aristotle University of Thessaloniki, Greece, and completed his postdoctoral training at the Dana-Farber Cancer Institute (DFCI), Harvard Medical School (HMS) and the Broad Institute of MIT and Harvard. He is currently an Instructor in Medicine in the Department of Medical Oncology at DFCI, HMS and the Broad. He also serves as a Fellow for the Broad Institute’s Research Communication Lab and an Ambassador for the American Society of Hematology.
