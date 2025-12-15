@@ -10,7 +10,8 @@ github:
 image: /assets/images/team/abhishek_choudhary.png
 cv:
 linkedin: abhiachoudhary
-alum: false
+alum: true
+parting_date: 2024-01-01
 ---
 
 Abhishek is a computational scientist associated with dGTEx and NHP-dGTEx projects. His current focus is on single nuclei RNA-seq data analyses in a variety of human tissues.

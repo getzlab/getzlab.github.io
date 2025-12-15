@@ -11,8 +11,8 @@ twitter:
 scholar: 
 image: /assets/images/team/dias_olivia.png
 cv:
-alum: false
-parting_date: 
+alum: true
+parting_date: 2025-05-01
 ---
 
 Olivia is a Senior at MIT studying computer science and AI. She is also on the MIT Women's Track and Field team. Olivia enjoys watching reality tv shows and going on runs.

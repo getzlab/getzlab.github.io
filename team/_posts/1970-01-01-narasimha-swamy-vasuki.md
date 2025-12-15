@@ -10,7 +10,8 @@ github:
 image: /assets/images/team/Vasuki_Swamy.jpg
 cv:
 linkedin: vasukinarasimhaswamy
-alum: false
+alum: true
+parting_date: 2025-10-05
 ---
 
 Vasuki joined the Getz lab as a Computational Biologist in 2023. Prior to joining the lab, she was an Applied AI research scientist at Intel Labs where she worked on problems at the intersection of AI and wireless communication. 

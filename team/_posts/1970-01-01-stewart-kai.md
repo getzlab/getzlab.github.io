@@ -2,7 +2,7 @@
 layout: member
 title: Kai Stewart
 category: Associate
-position: Associate Compuational Biologist II
+position: Associate Computational Biologist II
 email: kstewart@broadinstitute.org
 github: kseuro
 linkedin: kaiwstewart
