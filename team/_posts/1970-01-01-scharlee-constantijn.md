@@ -12,7 +12,7 @@ linkedin: constantijn-scharlee-1255031b8/
 image: /assets/images/team/Constantijn_Scharlee.jpg
 cv:
 alum: true
-parting_date: 2025-09-31
+parting_date: 2025-09-30
 ---
 
 Constantijn is a Visiting Graduate Intern from Belgium, where he is a medical student at the Catholic University of Leuven (KU Leuven). He holds a BSc in Medicine from KU Leuven and is currently enrolled in their Master of Medicine program. At the Getz Lab his main interest is the study of somatic mutations in normal tissues, an area of research he is exploring in the SMaHT consortium project. Aside from this, Constantijn is also interested in cancer genomics and precision oncology.
