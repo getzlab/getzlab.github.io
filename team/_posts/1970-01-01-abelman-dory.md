@@ -6,7 +6,7 @@ category: Postdoctoral Researcher
 position: Postdoctoral Fellow
 email: dabelman@broadinstitute.org
 twitter: DoryAbelman
-github: https://github.com/DoryAbelman
+github: DoryAbelman
 linkedin: dory-abelman
 scholar: 81axlmMAAAAJ&hl=en#
 image: /assets/images/team/Abelman_Dory.jpg
