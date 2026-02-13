@@ -11,7 +11,8 @@ github:
 linkedin: ruitong-li-6a83a0149
 image: /assets/images/team/Li_Ruitong.png
 cv: 
-alum: false
+alum: true
+parting_date: 2026-01-15
 ---
 
 Ruitong is a 2nd year PhD student in Harvard’s Bioinformatics and Integrative Genomics (BIG) program.

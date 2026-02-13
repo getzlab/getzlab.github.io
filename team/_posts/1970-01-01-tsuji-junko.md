@@ -10,7 +10,8 @@ scholar: sqg49l8AAAAJ
 linkedin: junko-tsuji-72558670
 image: /assets/images/team/Junko_Tsuji.jpeg
 cv:
-alum: false
+alum: true
+parting_date: 2026-02-10
 ---
 
 Junko joined the Getz Lab as a computational scientist in 2022. Her main focus in the lab is single cell data analyses on cancers.  Prior to joining the lab she worked as a computational scientist in the Genomics Platform at [the Broad Institute of MIT and Harvard](https://www.broadinstitute.org/) (2017-2022), developing and benchmarking analysis pipelines to ensure quality control of cancer related sequencing data.  

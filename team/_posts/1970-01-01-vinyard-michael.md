@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Michael Vinyard
-citation_names: Vinyard M
+citation_names: Vinyard M, Vinyard ME
 category: Graduate Student
 position: PhD Student, Harvard - Chemistry and Chemical Biology
 email: mvinyard@broadinstitute.org
