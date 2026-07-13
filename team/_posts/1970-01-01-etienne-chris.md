@@ -2,8 +2,8 @@
 layout: member
 title: Chris Etienne
 citation_names: Etienne C
-category: Graduate Student
-position: PhD Student, Harvard - Chemical Biology Program
+category: Postdoctoral Researcher
+position: Postdoctoral Associate
 email: cetienne@broadinstitute.org
 twitter: cetienn01
 scholar: 

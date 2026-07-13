@@ -1,7 +1,7 @@
 ---
 layout: member
 title: David Merrell
-citation_names: "Merrell C" 
+citation_names: "Merrell D" 
 category: Staff Scientist
 position: Computational Biologist II
 email: merrell@broadinstitute.org

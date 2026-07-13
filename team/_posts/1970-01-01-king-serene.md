@@ -2,7 +2,7 @@
 layout: member
 title: Serene King
 category: Operations and Administration
-position: Operations Specialist
+position: Senior Operations Specialist
 email: sking@broadinstitute.org
 github: 
 image: /assets/images/team/Serene_King.jpg
