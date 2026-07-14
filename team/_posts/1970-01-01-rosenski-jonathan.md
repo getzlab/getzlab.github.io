@@ -13,6 +13,6 @@ image: /assets/images/team/jonathan_rosenski.jpg
 cv:
 alum: false
 ---
-Jonathan is a postdoctoral fellow in the Getz lab. He received his Ph.D. in Computer Science from the Hebrew University of Jerusalem in 2025. His previous work involved developing DNA methylation statistical analysis methods and tools (i.e. wgbstools) and creating a base-pair-resolution atlas of allele-specific DNA methylation to understand gene regulation.
+Jonathan is a postdoctoral fellow in the Getz lab. He received his Ph.D. in Computer Science from the Hebrew University of Jerusalem in 2025. His previous work spans machine learning theory and computational tool development, including communication-free algorithms for the multi-player stochastic bandit problem (ICML 2016) and the design of high-performance computational tools for large-scale sequencing data analysis featuring algorithms for genomic segmentation, statistical QTL analysis, and genetic biomarker identification (e.g. wgbstools for methylation analysis).
 
-In his current research, Jonathan investigates biliary tract cancers using spatial transcriptomics and multi-modal sequencing modalities. He focuses on modeling tumor-microenvironment interactions to identify lineage-specific vulnerabilities and new targets for precision immunotherapies.
+In his current research, Jonathan develops machine learning and computational models for large-scale spatial and multi-modal sequencing data in biliary tract cancers. His work focuses on modeling cell-level interaction networks in heterogeneous tissue environments to identify actionable patterns for precision therapies.

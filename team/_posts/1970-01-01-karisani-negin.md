@@ -2,8 +2,8 @@
 layout: member
 title: Negin Karisani
 citation_names: Karisani N
-category: Postdoctoral Researcher
-position: Postdoctoral Associate
+category: Staff Scientist
+position: Computational Biologist II
 email: nkarisan@broadinstitute.org
 github: nkarisan
 scholar: jutx4f4AAAAJ&hl
