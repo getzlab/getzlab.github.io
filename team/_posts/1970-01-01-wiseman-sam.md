@@ -9,8 +9,10 @@ github: SamWisedev
 image: /assets/images/team/Sam_Wiseman.jpeg
 alum: false
 ---
-An alum of Carleton College, Sam became a Broadie in 2021. Having
-previously worked on commercial healthcare IT software, he now
-develops internal and external-facing web tools for the Getz lab as
-a full-stack web engineer. Outside of work, he is a pianist and violinist
-who performs regularly with orchestras across greater Boston.
+An alum of Carleton College, Sam joined the Getz Lab in 2021. Having
+previously worked in the healthcare IT industry, he now maintains the lab's
+in-house workflow engine, wolF, to ensure that its computational analysis pipelines
+can run efficiently. He has also contributed to numerous internal and external-facing web
+tools that organize and showcase the lab's scientific output. 
+
+Outside of work, Sam is a pianist, violinist and singer who performs regularly across the Northeast.
