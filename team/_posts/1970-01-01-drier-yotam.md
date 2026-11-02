@@ -12,7 +12,7 @@ cv:
 twitter: yotam_d
 scholar: EvZn5VEAAAAJ&hl=en
 linkedin: yotamd/
-alum: false
+alum: true
 parting_date: 2012-09-01
 ---
 

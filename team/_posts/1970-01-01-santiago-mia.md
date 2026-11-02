@@ -11,8 +11,8 @@ twitter:
 scholar: 
 image: /assets/images/team/Mia_Santiago.jpeg
 cv:
-alum: false
-parting_date:
+alum: true
+parting_date: 2026-08-31
 ---
 
 Mia is a rising senior at UCLA majoring in Molecular, Cellular and Developmental Biology. At UCLA, she is involved in undergraduate research where she studies the dietary effects of aKG on lung adenocarcinoma. 

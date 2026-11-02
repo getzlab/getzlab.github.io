@@ -11,7 +11,8 @@ github: cetienn01
 linkedin: chrisetienne
 image: /assets/images/team/Chris_Etienne.jpg
 cv: 
-alum: false
+alum: true
+parting_date: 2026-09-04
 ---
 
 Chris is a graduate student in the Chemical Biology PhD program at Harvard Medical School, which he joined in Fall 2021. He is advised by Professor Gaddy Getz, PhD at the Broad Institute of MIT and Harvard. His main research interest is to understand the molecular mechanisms driving somatic evolution in healthy and pathological conditions, with a particular focus on their clinical implications.
