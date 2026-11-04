@@ -6,7 +6,7 @@ category: Graduate Student
 position: PhD Student, Harvard - Biological and Biomedical Sciences (BBS) Program
 email: akowalew@broadinstitute.org
 twitter:
-scholar: https://scholar.google.com/citations?user=SOX5Kw8AAAAJ&hl=en
+scholar: SOX5Kw8AAAAJ&hl=en
 github:
 linkedin: antoniakowalewski
 image: /assets/images/team/Antonia-Kowalewski.jpg
