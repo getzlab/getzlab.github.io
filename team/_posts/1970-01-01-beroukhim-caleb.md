@@ -9,7 +9,7 @@ github:
 linkedin: 
 twitter: 
 scholar: 
-image: /assets/images/team/beroukhim_caleb.png
+image: /assets/images/team/beroukhim_caleb.jpeg
 cv:
 alum: false
 parting_date:
